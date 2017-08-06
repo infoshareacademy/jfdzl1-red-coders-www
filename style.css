@@ -10,15 +10,15 @@
 }
 
 .mn {
-    margin: 0 auto;
-    width: autou;
+    margin: 0 15%;
+    width: auto;
     height: 1200px;
+    background-image: linear-gradient(#7c7979, #cecece)
 }
 
 .sct1 {
     height: 30%;
     width: 100%;
-    background-image: linear-gradient(#7c7979, #cecece)
 }
 
 .desc_hd {
@@ -39,6 +39,7 @@
     height: 30%;
     width: 100%;
 }
+
 .ft {
     width: 1000px;
     height: 50px;
@@ -49,9 +50,16 @@
 
 .product_functions {
     font-family: "Lato";
-    border-style: ridge;
+    margin: 5%;
+}
+
+.product_functions:first-line {
+    padding: 10% 10%;
+    font-size: 30px;
+    margin: 30% 30%;
 }
 
 .list {
     list-style-type: circle;
+    padding: 5px 5px;
 }

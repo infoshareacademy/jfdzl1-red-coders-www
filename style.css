@@ -38,10 +38,16 @@
 }
 
 .product_functions {
+    width:80%;
     font-family: "Lato";
-    border-style: ridge;
+    position: absolute;
+    margin:30px 50px;
+}
+.product_functions::first-line{
+    padding: 10px 10px;
 }
 
 .list {
     list-style-type: circle;
+    padding: 5px 5px ;
 }

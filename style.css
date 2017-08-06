@@ -10,8 +10,8 @@
 }
 
 .mn {
-    margin: 0 auto;
-    width: 1000px;
+    margin: 0 15%;
+    width: auto;
     height: 1200px;
 }
 
@@ -38,16 +38,17 @@
 }
 
 .product_functions {
-    width:80%;
     font-family: "Lato";
-    position: absolute;
-    margin:30px 50px;
+    margin: 5%;
 }
-.product_functions::first-line{
-    padding: 10px 10px;
+
+.product_functions:first-line {
+    padding: 10% 10%;
+    font-size: 30px;
+    margin: 30% 30%;
 }
 
 .list {
     list-style-type: circle;
-    padding: 5px 5px ;
+    padding: 5px 5px;
 }

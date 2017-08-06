@@ -39,11 +39,12 @@
     height: 30%;
     width: 100%;
 }
-
 .ft {
     width: 1000px;
-    height: 100px;
+    height: 50px;
     margin: 0 auto;
+    text-align: center;
+
 }
 
 .product_functions {

@@ -45,21 +45,27 @@
     height: 50px;
     margin: 0 auto;
     text-align: center;
-
 }
 
 .product_functions {
     font-family: "Lato";
-    margin: 5%;
+    margin: 5% 5% 10%;
+    border-style: none;
+    text-align: center;
+
 }
 
-.product_functions:first-line {
-    padding: 10% 10%;
+.product_functions::first-line {
     font-size: 30px;
-    margin: 30% 30%;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 60px;
+    text-align: center;
 }
 
 .list {
+    text-align: left;
     list-style-type: circle;
-    padding: 5px 5px;
+    padding: 20px 5px;
+    border-style: none;
 }

@@ -21,6 +21,14 @@
     background-image: linear-gradient(#7c7979, #cecece)
 }
 
+.desc_hd {
+    margin: 5px auto;
+    text-align: center;
+    color: white;
+    letter-spacing: 5px;
+
+}
+
 .sct2 {
     height: 40%;
     width: 100%;

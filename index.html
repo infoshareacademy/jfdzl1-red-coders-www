@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Yaw Killer</title>
     <link href="style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
@@ -35,7 +35,41 @@
 
         </div>
         <div class="sct3">
+            <form method="POST" action="" class="contact-form">
+                <fieldset class="contact-form__container">
+                    <legend class="contact-form__title">Send some message to me</legend>
+                    <p class="contact-form__inner-space">
+                        <label class="contact-form__labels" for="name">Your name: </label>
+                    </p>
+                    <p class="contact-form__inner-space">
+                        <input type="text" name="name" id="name" class="contact-form__name contact-form--active">
+                    </p>
+                    <p class="contact-form__inner-space">
+                        <label class="contact-form__labels" for="email">Your e-mail: </label>
+                    </p>
+                    <p class="contact-form__inner-space">
+                        <input type="text" name="email" id="email" class="contact-form__email  contact-form--active">
+                    </p>
+                    <p class="contact-form__inner-space">
+                        <label class="contact-form__labels" for="question_options">Question type:</label>
+                    </p>
+                    <p class="contact-form__inner-space">
+                        <select name="question_options" class="contact-form__question-option" id="question_options">
+                            <option value="about_application">about application</option>
+                            <option value="problem">problem</option>
+                            <option value="other">other</option>
+                        </select>
+                    </p>
 
+
+                    <p class="contact-form__inner-space">
+                        <label class="contact-form__labels" for="message">Message: </label>
+                        <textarea name="message" id="message"
+                                  class="contact-form__message  contact-form--active"></textarea>
+                    </p>
+                    <input type="submit" value="Send" class="send-button">
+                </fieldset>
+            </form>
         </div>
     </div>
 </main>

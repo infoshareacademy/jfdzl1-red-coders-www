@@ -34,10 +34,5 @@
     width: 1000px;
     height: 100px;
     margin: 0 auto;
-}
-
-footer {
-    position: fixed;
-    left: 50%;
-    bottom: 0px;
+    text-align: center;
 }

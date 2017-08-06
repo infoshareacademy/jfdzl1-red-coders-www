@@ -1,0 +1,26 @@
+/* HEADER */
+
+.header__top, .header__bottom {
+    width: 100%;
+}
+
+.logo {
+    text-align: center;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav__list {
+    padding-left: 0;
+}
+
+.nav__element {
+    display: inline;
+    padding-right: 30px;
+}
+
+.nav__element--last {
+    padding-right: 0;
+}

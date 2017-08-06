@@ -34,5 +34,13 @@
     width: 1000px;
     height: 100px;
     margin: 0 auto;
-    text-align: center;
+}
+
+.product_functions {
+    font-family: "Lato";
+    border-style: ridge;
+}
+
+.list {
+    list-style-type: circle;
 }

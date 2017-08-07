@@ -1,5 +1,12 @@
-# JFDZL1 - Repozytorium zespołu Red Coders
+# JFDZL1 - Red Coders
 
+
+## Description
 TBD
 
-Demo: [click here](http://red-coders.jfdzl1.is-academy.pl)
+## Info
+* Development branch: `development`
+* Production branch: `master`
+
+## Demo
+Built from develop: [click here](http://red-coders.jfdzl1.is-academy.pl)

@@ -29,6 +29,19 @@
 
 }
 
+.desc_h5 {
+    margin: 10px 0 0 5px;
+    color: white;
+    letter-spacing: 5px;
+}
+
+.desc_h4 {
+    color: white;
+    letter-spacing: 5px;
+    position: relative;
+    left: 250px;
+}
+
 .sct2 {
     height: 40%;
     width: 100%;

@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 .hdr {
@@ -12,34 +12,78 @@
 .mn {
     margin: 0 auto;
     width: 1000px;
-    height: 1200px;
+    height: 1500px;
 }
 
 .sct1 {
     height: 30%;
     width: 100%;
-    background-image: linear-gradient(#7c7979, #cecece)
 }
 
 .desc_hd {
     margin: 5px auto;
     text-align: center;
-    color: white;
     letter-spacing: 5px;
 
+}
+
+.qstn {
+    border: 1px solid black;
+    background-image: linear-gradient(#62a6ea, #1175d8);
+}
+
+.short_dscr {
+    border-bottom: 1px solid black;
 }
 
 .desc_h5 {
+    width: 50%;
+    text-align: center;
     margin: 10px 0 0 5px;
-    color: white;
+    position: relative;
+    top: 10px;
     letter-spacing: 5px;
+    color: white;
 }
 
 .desc_h4 {
-    color: white;
+    width: 60%;
+    text-align: center;
     letter-spacing: 5px;
     position: relative;
-    left: 250px;
+    left: 350px;
+    color: white;
+}
+
+.desc_h3 {
+    text-align: center;
+    letter-spacing: 7px;
+    margin: 5px auto;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.short_dscr span {
+    font-size: 25px;
+}
+
+.desc_p {
+    padding: 10px;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.desc_list {
+    list-style-type: none;
+    position: relative;
+    top: -30px;
+    font-weight: bold;
+}
+
+.sct1 li {
+    letter-spacing: 2px;
+    text-align: right;
 }
 
 .sct2 {

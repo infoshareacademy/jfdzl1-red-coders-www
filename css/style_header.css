@@ -1,5 +1,11 @@
 /* HEADER */
 
+.header {
+    background-image: url('../images/header__background.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
 .header__top, .header__bottom {
     width: 100%;
 }

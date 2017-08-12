@@ -13,7 +13,21 @@
     height: 100%;
     width: 100%;
     background-image: url('../images/header__background.jpg');
+    background-size: cover;
+    animation: background-animation 17.5s linear 0.5s infinite alternate;
+    -webkit-animation: background-animation 17.5s linear    0.5s infinite alternate;
     z-index: -1;
+}
+
+@keyframes background-animation {
+    0% {
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+    100% {
+        -webkit-transform: scale(1.15, 1.15);
+        transform: scale(1.15, 1.15);
+    }
 }
 
 .header__top {

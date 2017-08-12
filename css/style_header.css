@@ -1,21 +1,40 @@
 /* HEADER */
 
 .header {
-    background-image: url('../images/header__background.jpg');
+    position: relative;
     height: 100vh;
+    overflow: hidden;
     background-size: cover;
+    font-family: 'Lato', sans-serif;
 }
 
-.header__top, .header__bottom {
+.header__background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/header__background.jpg');
+    z-index: -1;
+}
+
+.header__top {
     width: 100%;
 }
 
-.logo {
-    text-align: center;
+.header__left-container, .header__right-container {
+    display: inline-block;
+    float: left;
 }
 
-.nav {
-    text-align: center;
+.header__left-container {
+    width: 25%;
+}
+
+.header__right-container {
+    width: 75%;
+}
+
+.header__nav {
+    float: right;
 }
 
 .nav__list {

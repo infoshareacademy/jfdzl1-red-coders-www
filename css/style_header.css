@@ -78,3 +78,28 @@
     border-color: #1175d8;
     background: #1175d8;
 }
+
+.header__main-slogan, .header__main-description {
+    text-align: center;
+}
+
+.main-slogan__text {
+    font-size: 44px;
+    font-weight: 300;
+}
+
+.main-description__text {
+    width: 90%;
+    margin: auto;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.header__buttons{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.header-button {
+    margin: 0 15px;
+}

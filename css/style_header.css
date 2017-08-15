@@ -103,3 +103,34 @@
 .header-button {
     margin: 0 15px;
 }
+
+.header__app {
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 400px);
+    animation: app-animation 1.75s cubic-bezier(.24,.78,.31,.84) 1 forwards;
+    -webkit-animation: app-animation 1.75s cubic-bezier(.24,.78,.31,.84) 1 forwards;
+}
+
+@keyframes app-animation {
+    0% {
+        opacity: 0;
+        transform:translateY(390px);
+        -webkit-transform:translateY(390px);
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        transform:translateY(0);
+        -webkit-transform:translateY(0);
+    }
+}
+
+.app__image {
+    width: 800px;
+    vertical-align: bottom;
+}

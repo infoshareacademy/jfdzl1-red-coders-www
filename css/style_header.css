@@ -57,9 +57,24 @@
 
 .nav__element {
     display: inline;
-    padding-right: 30px;
+    padding-right: 15px;
 }
 
 .nav__element--last {
     padding-right: 0;
+}
+
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    border-color: #fff;
+    background: transparent;
+}
+
+.nav__link--contact:hover {
+    border-color: #1175d8;
+    background: #1175d8;
 }

@@ -70,19 +70,19 @@
     padding-right: 0;
 }
 
-.nav__link {
+a.nav__link {
     color: #fff;
     text-decoration: none;
 }
 
-.nav__link:hover {
+a.nav__link:hover {
     border-color: #fff;
     background: transparent;
 }
 
-.nav__link--contact:hover {
-    border-color: #1175d8;
-    background: #1175d8;
+a.nav__link--contact:hover {
+    border-color: #3187b1;
+    background: #3187b1;
 }
 
 .header__main-slogan, .header__main-description {
@@ -114,8 +114,8 @@
     position: absolute;
     bottom: 0;
     left: calc(50% - 400px);
-    animation: app-animation 1.75s cubic-bezier(.24,.78,.31,.84) 1 forwards;
-    -webkit-animation: app-animation 1.75s cubic-bezier(.24,.78,.31,.84) 1 forwards;
+    animation: app-animation 1s cubic-bezier(.24,.78,.31,.84) 1 forwards;
+    -webkit-animation: app-animation 1s cubic-bezier(.24,.78,.31,.84) 1 forwards;
 }
 
 @keyframes app-animation {

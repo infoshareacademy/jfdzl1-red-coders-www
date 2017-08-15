@@ -14,8 +14,8 @@
 
 .btn:hover {
     cursor: pointer;
-    border-color: #1175d8;
-    background: #1175d8;
+    border-color: #3187b1;
+    background: #3187b1;
     color: #fff;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .btn--cta {
-    border-color: #47d147;
-    background-color: #47d147;
+    border-color: #92b945;
+    background-color: #92b945   ;
     color: #fff;
 }

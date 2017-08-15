@@ -47,6 +47,12 @@
     width: 75%;
 }
 
+.logo__image {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
 .header__nav {
     float: right;
 }

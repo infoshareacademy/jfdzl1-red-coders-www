@@ -32,6 +32,7 @@
 
 .header__top {
     width: 100%;
+    padding-top: 15px;
 }
 
 .header__left-container, .header__right-container {
@@ -89,21 +90,90 @@ a.nav__link--contact:hover {
     text-align: center;
 }
 
+.header__main-slogan {
+    padding-top: 25px;
+    clear: both;
+}
+
 .main-slogan__text {
-    font-size: 44px;
+    margin: 10px 0;
+    font-size: 55px;
     font-weight: 300;
+    color: #fff;
+    text-shadow: 1px 1px 1px #636363;
+    opacity: 0;
+    animation: slogan-animation 1s cubic-bezier(.24,.78,.31,.84) 0.25s 1 forwards;
+    -webkit-animation: slogan-animation 1s cubic-bezier(.24,.78,.31,.84) 0.25s 1 forwards;
+}
+
+@keyframes slogan-animation {
+    0% {
+        opacity: 0;
+        transform:translateY(-200px);
+        -webkit-transform:translateY(-200px);
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        transform:translateY(0);
+        -webkit-transform:translateY(0);
+    }
 }
 
 .main-description__text {
     width: 90%;
     margin: auto;
-    font-size: 22px;
+    color: #fff;
+    font-size: 23px;
     font-weight: 300;
+    text-shadow: 1px 1px 1px #636363;
+    opacity: 0;
+    animation: description-animation 1s cubic-bezier(.24,.78,.31,.84) 0.9s 1 forwards;
+    -webkit-animation: description-animation 1s cubic-bezier(.24,.78,.31,.84) 0.9s 1 forwards;
+}
+
+@keyframes description-animation {
+    0% {
+        opacity: 0;
+        transform:translateY(-100px);
+        -webkit-transform:translateY(-100px);
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        transform:translateY(0);
+        -webkit-transform:translateY(0);
+    }
 }
 
 .header__buttons{
-    padding-top: 30px;
+    padding-top: 35px;
     text-align: center;
+    opacity: 0;
+    animation: buttons-animation 2s cubic-bezier(.24,.78,.31,.84) 1s 1 forwards;
+    -webkit-animation: buttons-animation 2s cubic-bezier(.24,.78,.31,.84) 1s 1 forwards;
+}
+
+@keyframes buttons-animation {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .header-button {
@@ -113,9 +183,10 @@ a.nav__link--contact:hover {
 .header__app {
     position: absolute;
     bottom: 0;
-    left: calc(50% - 400px);
-    animation: app-animation 1s cubic-bezier(.24,.78,.31,.84) 1 forwards;
-    -webkit-animation: app-animation 1s cubic-bezier(.24,.78,.31,.84) 1 forwards;
+    left: calc(50% - 450px);
+    opacity: 0;
+    animation: app-animation 1s cubic-bezier(.24,.78,.31,.84) 2s 1 forwards;
+    -webkit-animation: app-animation 1s cubic-bezier(.24,.78,.31,.84) 2s 1 forwards;
 }
 
 @keyframes app-animation {
@@ -137,6 +208,6 @@ a.nav__link--contact:hover {
 }
 
 .app__image {
-    width: 800px;
+    width: 900px;
     vertical-align: bottom;
 }

@@ -128,7 +128,6 @@ body {
 .pfunct {
     font-family: Symbola;
     text-align: left;
-    list-style-type: circle;
     padding: 20px 5px;
     margin: 15px;
     line-height: 40px;
@@ -142,8 +141,6 @@ body {
     display: flex;
     flex-direction: column;
     float: left;
-    border: solid 2px;
-
 }
 
 .second_col_fct {
@@ -152,5 +149,17 @@ body {
     display: flex;
     flex-direction: column;
     float: left;
+}
+.first_list_fct {
     border: solid 2px;
+    list-style-image: ;
+}
+.second_list_fct {
+    border: solid 2px;
+}
+.third_list_fct {
+    border: solid 2px;
+}
+.fourth_list_fct{
+    border:solid 2px;
 }

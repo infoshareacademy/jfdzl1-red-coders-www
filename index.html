@@ -96,7 +96,9 @@
         </div>
         <div class="sct3">
             <form method="POST" action="" class="contact-form">
+                <!--http://api.jfdzl1.is-academy.pl/emailer.php-->
                 <fieldset class="contact-form__container">
+                    <input type="hidden" name="reply-to" value="yawnkiller.contact@gmail.com">
                     <legend class="contact-form__title">Send some message to me</legend>
                     <p class="contact-form__inner-space">
                         <label class="contact-form__labels" for="name">Your name: </label>
@@ -108,7 +110,7 @@
                         <label class="contact-form__labels" for="email">Your e-mail: </label>
                     </p>
                     <p class="contact-form__inner-space">
-                        <input type="text" name="email" id="email" class="contact-form__email  contact-form--active">
+                        <input type="email" name="email" id="email" class="contact-form__email  contact-form--active">
                     </p>
                     <p class="contact-form__inner-space">
                         <label class="contact-form__labels" for="question_options">Question type:</label>

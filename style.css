@@ -4,6 +4,7 @@ html, body {
 
 body {
     margin: 0;
+    background-image: url();
 }
 
 * {
@@ -115,14 +116,41 @@ body {
     margin: 0 auto;
 }
 
-.product_functions {
-    font-family: "Lato";
-    border-style: ridge;
+.header_pfunct {
+    text-align: center;
 }
 
-.list {
+.header_pfunct:hover {
+    font-style: oblique;
+    cursor: default;
+}
+
+.pfunct {
+    font-family: Symbola;
     text-align: left;
     list-style-type: circle;
     padding: 20px 5px;
-    border-style: none;
+    margin: 15px;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.first_col_fct {
+    width: 30%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    border: solid 2px;
+
+}
+
+.second_col_fct {
+    width: 30%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    border: solid 2px;
 }

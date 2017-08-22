@@ -19,15 +19,6 @@
 .col_fct {
     position: relative;
     width: 30%;
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-    float: left;
-}
-
-.col_fct {
-    width: 30%;
-    height: 60%;
     display: flex;
     flex-direction: column;
     float: left;
@@ -35,11 +26,20 @@
 
 .list_img {
     width: 40%;
-    height: 50%;
+    height: 70%;
+}
+
+#list_logo {
+    width: 30%;
+    background: url('../images/') no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 .list_fct {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     width: 100%;
     height: 100%;
@@ -55,7 +55,7 @@
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: black;
+    background-color: rosybrown;
 }
 
 .list_fct:hover .overlay_list {

@@ -6,7 +6,7 @@
     <title>Yawn Killer</title>
     <link href="./images/favicon.png" rel=icon sizes="16x16" type="img">
     <link href="./css/normalize.css" type="text/css" rel="stylesheet">
-    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
     <link href='css/style_header.css' rel='stylesheet' type='text/css'>
     <link href='css/style_components.css' rel='stylesheet' type='text/css'>
     <link href='css/function_style.css' rel='stylesheet' type='text/css'>
@@ -81,24 +81,42 @@
         <div class="sct2">
             <h1 class="header_pfunct">Product Functions</h1>
             <div class="pfunct">
-                <div class="first_col_fct">
-                    <div class="first_list_fct">
-                        <img id="list_img" src="./images/movie-clapper-board-blank.png"/>
-                        <div id="overlay_list">
-                            <div id="list_text">
+                <div class="col_fct">
+                    <div class="list_fct">
+                        <img class="list_img" src="./images/movie-clapper-board-blank.png"/>
+                        <div class="overlay_list">
+                            <div class="list_text">
                                 Large choice of activities.
                             </div>
                         </div>
                     </div>
-                    <div class="second_list_fct">
-                        Possibility of remembering our decisions.
+                    <div class="list_fct">
+                        <img class="list_img" src="./images/theater_masks_silhouette.png"/>
+                        <div class="overlay_list">
+                            <div class="list_text">
+                                Possibility of remembering our decisions.
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="second_col_fct">
-                    <div class="third_list_fct">
-                        Clear and intuitive application.
+                <div id="list_logo"></div>
+                <div class="col_fct">
+                    <div class="list_fct">
+                        <img class="list_img" src="./images/icon-game-controller-a-512.png"/>
+                        <div class="overlay_list">
+                            <div class="list_text">
+                                Clear and intuitive application.
+                            </div>
+                        </div>
                     </div>
-                    <div class="fourth_list_fct">4</div>
+                    <div class="list_fct">
+                        <img class="list_img" src="./images/books-stack-of-three_318-45543.jpg"/>
+                        <div class="overlay_list">
+                            <div class="list_text">
+                                OVER THERE4Never desire a bilge rat.
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -110,19 +128,22 @@
                         <label class="contact-form__labels" for="name">Your name: </label>
                     </p>
                     <p class="contact-form__inner-space">
-                        <input type="text" name="name" id="name" class="contact-form__name contact-form--active">
+                        <input type="text" name="name" id="name"
+                               class="contact-form__name contact-form--active">
                     </p>
                     <p class="contact-form__inner-space">
                         <label class="contact-form__labels" for="email">Your e-mail: </label>
                     </p>
                     <p class="contact-form__inner-space">
-                        <input type="text" name="email" id="email" class="contact-form__email  contact-form--active">
+                        <input type="text" name="email" id="email"
+                               class="contact-form__email  contact-form--active">
                     </p>
                     <p class="contact-form__inner-space">
                         <label class="contact-form__labels" for="question_options">Question type:</label>
                     </p>
                     <p class="contact-form__inner-space">
-                        <select name="question_options" class="contact-form__question-option" id="question_options">
+                        <select name="question_options" class="contact-form__question-option"
+                                id="question_options">
                             <option value="about_application">about application</option>
                             <option value="problem">problem</option>
                             <option value="other">other</option>

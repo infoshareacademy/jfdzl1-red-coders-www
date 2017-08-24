@@ -154,39 +154,13 @@ a.nav__link--contact:hover {
     }
 }
 
-.header__buttons{
-    padding-top: 35px;
-    text-align: center;
-    opacity: 0;
-    animation: buttons-animation 2s cubic-bezier(.24,.78,.31,.84) 1s 1 forwards;
-    -webkit-animation: buttons-animation 2s cubic-bezier(.24,.78,.31,.84) 1s 1 forwards;
-}
-
-@keyframes buttons-animation {
-    0% {
-        opacity: 0;
-    }
-
-    50% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-.header-button {
-    margin: 0 15px;
-}
-
 .header__app {
     position: absolute;
     bottom: 0;
     left: calc(50% - 450px);
     opacity: 0;
-    animation: app-animation 1s cubic-bezier(.24,.78,.31,.84) 2s 1 forwards;
-    -webkit-animation: app-animation 1s cubic-bezier(.24,.78,.31,.84) 2s 1 forwards;
+    animation: app-animation 1s cubic-bezier(.24,.78,.31,.84) 1.7s 1 forwards;
+    -webkit-animation: app-animation 1s cubic-bezier(.24,.78,.31,.84) 1.7s 1 forwards;
 }
 
 @keyframes app-animation {

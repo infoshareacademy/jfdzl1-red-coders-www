@@ -14,40 +14,52 @@
 <header class="header">
     <div class="header__background"></div>
     <div class="mn">
-        <div class="header__top">
-            <div class="header__left-container">
-                <div class="header__logo">
-                    <img class="logo__image" src="./images/logo_yawn_killer_color.png"></div>
+        <div class="row header__top">
+            <div class="col-6">
+                <img class="logo__image" src="./images/logo_yawn_killer_color.png">
             </div>
-            <div class="header__right-container">
-                <nav class="header__nav">
-                    <ul class="nav__list">
-                        <li class="nav__element">
-                            <a class="btn nav__link btn--rounded" href="#">About app</a>
-                        </li>
-                        <li class="nav__element">
-                            <a class="btn nav__link btn--rounded" href="#">Main features</a>
-                        </li>
-                        <li class="nav__element nav__element--last">
-                            <a class="btn btn--white btn--rounded nav__link nav__link--contact" href="#">Stay connected</a>
-                        </li>
-                    </ul>
-                </nav>
+            <nav>
+                <div class="col-2">
+                    <div class="menu__item">
+                        <a class="btn nav__link btn--rounded" href="#">About&nbsp;app</a>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="menu__item">
+                        <a class="btn nav__link btn--rounded" href="#">Main&nbsp;features</a>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="menu__item">
+                        <a class="btn btn--white btn--rounded nav__link nav__link--contact"
+                           href="#">Stay&nbsp;connected</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col-12 main-slogan__text1">No idea what to do in the afternoon?</div>
+        </div>
+        <div class="row text2">
+            <div class="col-12 main-slogan__text2">Willing to spend the evening unlike usually?</div>
+        </div>
+        <div class="row">
+            <h1 class="col-12 main-slogan__text3">
+                Yawn Killer can help you manage your free time! </h1>
+        </div>
+        <div class="row header__buttons">
+            <div class="col-6">
+                <button class="btn btn--white header-button" type="button">How can YK help you?</button>
             </div>
-        </div>
-        <div class="header__main-slogan">
-            <h1 class="main-slogan__text">No idea what to do in the afternoon?</h1>
-        </div>
-        <div class="header__main-description">
-            <h2 class="main-description__text">Willing to spend the evening unlike usually? Yawn Killer can help you<br>manage your free time!</h2>
-        </div>
-        <div class="header__buttons">
-            <button class="btn btn--white header-button" type="button">How can YK help you?</button>
-            <button class="btn btn--cta header-button" type="button">Be informed about news</button>
+            <div class="col-6">
+                <button class="btn btn--cta header-button" type="button">Be informed about news</button>
+            </div>
         </div>
     </div>
-    <div class="header__app">
-        <img class="app__image" src="./images/header__app.png">
+    <div class="row header__app">
+        <div class="col-12">
+            <img class="app__image" src="./images/header__app.png">
+        </div>
     </div>
 </header>
 <main>

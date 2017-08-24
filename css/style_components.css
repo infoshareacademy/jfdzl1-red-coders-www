@@ -1,21 +1,36 @@
 /* BUTTONS */
 
 .btn {
-    border: 1px solid #000;
+    border: 1px solid transparent;
     -webkit-border-radius: 5px 5px 5px 5px;
     border-radius: 5px 5px 5px 5px;
     background: transparent;
     color: #000;
-    padding: 5px 15px;
+    padding: 10px 30px;
     font-size: 16px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    border-color: #3187b1;
+    background: #3187b1;
+    color: #fff;
 }
 
 .btn--rounded {
-    -webkit-border-radius: 10px 10px 10px 10px;
-    border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    border-radius: 30px 30px 30px 30px;
 }
 
 .btn--white {
     border-color: #fff;
+    color: #fff;
+}
+
+.btn--cta {
+    border-color: #92b945;
+    background-color: #92b945   ;
     color: #fff;
 }

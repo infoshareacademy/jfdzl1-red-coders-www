@@ -61,19 +61,10 @@ body {
 }
  /* end of styles for description section*/
 
-.sct2 {
-    height: 35%;
-    width: 100%;
-
-}
-
-.sct3 {
-    height: 30%;
-    width: 100%;
-}
-
 .ft {
-    width: 1000px;
-    height: 100px;
+    /*width: 1000px;
+    height: 100px;*/
+    width: 65%;
+    text-align: center;
     margin: 0 auto;
 }

@@ -29,8 +29,6 @@ body {
     box-shadow: 8px 8px 8px rgba(0,0,0,0.3);
 }
 
-
-
 .qstn {
     border: 1px solid black;
 }
@@ -85,16 +83,4 @@ body {
     width: 1000px;
     height: 100px;
     margin: 0 auto;
-}
-
-.product_functions {
-    font-family: "Lato";
-    border-style: ridge;
-}
-
-.list {
-    text-align: left;
-    list-style-type: circle;
-    padding: 20px 5px;
-    border-style: none;
 }

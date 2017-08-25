@@ -5,10 +5,11 @@
     <meta charset="viewport" content="width=device-width, initial-scale=1">
     <title>Yawn Killer</title>
     <link href="./images/favicon.png" rel=icon sizes="16x16" type="img">
-    <link href="css/function_style.css" type="text/css" rel="stylesheet">
+    <link href="./css/normalize.css" type="text/css" rel="stylesheet">
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <link href='css/style_header.css' rel='stylesheet' type='text/css'>
     <link href='css/style_components.css' rel='stylesheet' type='text/css'>
+    <link href='css/function_style.css' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet">
 </head>
 <body>
@@ -90,24 +91,46 @@
             </div>
         </div>
         <div class="sct2">
-            <ul class="product_functions">Product Functions
-                <li class="list">
-                    Est placidus verpa, cesaris.
-                </li>
-                <li class="list">
-                    Heu, lotus finis!
-                </li>
-                <li class="list">
-                    Mens de emeritis candidatus, quaestio aonides!
-                </li>
-                <li class="list">
-                    Ire mechanice ducunt ad salvus lumen.
-                </li>
-                <li class="list">Unda satis ducunt ad albus coordinatae.Cannabiss accelerare in neuter antenna!Sunt
-                    parses fallere nobilis, talis triticumes.
-                </li>
-            </ul>
-
+            <h1 class="header_pfunct">Product Functions</h1>
+            <div class="pfunct">
+                <div class="col_fct">
+                    <div class="list_fct">
+                        <img class="list_img" src="./images/movie-clapper-board-blank.png"/>
+                        <div class="overlay_list">
+                            <div class="list_text">
+                                Large choice of activities.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list_fct">
+                        <img class="list_img" src="./images/theater_masks_silhouette.png"/>
+                        <div class="overlay_list">
+                            <div class="list_text">
+                                Possibility of remembering our decisions.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="list_logo"></div>
+                <div class="col_fct">
+                    <div class="list_fct">
+                        <img class="list_img" src="./images/icon-game-controller-a-512.png"/>
+                        <div class="overlay_list">
+                            <div class="list_text">
+                                Clear and intuitive application.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list_fct">
+                        <img class="list_img" src="./images/books-stack-of-three_318-45543.jpg"/>
+                        <div class="overlay_list">
+                            <div class="list_text">
+                                OVER THERE4Never desire a bilge rat.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="sct3">
             <form method="POST" action="" class="contact-form">
@@ -117,19 +140,22 @@
                         <label class="contact-form__labels" for="name">Your name: </label>
                     </p>
                     <p class="contact-form__inner-space">
-                        <input type="text" name="name" id="name" class="contact-form__name contact-form--active">
+                        <input type="text" name="name" id="name"
+                               class="contact-form__name contact-form--active">
                     </p>
                     <p class="contact-form__inner-space">
                         <label class="contact-form__labels" for="email">Your e-mail: </label>
                     </p>
                     <p class="contact-form__inner-space">
-                        <input type="text" name="email" id="email" class="contact-form__email  contact-form--active">
+                        <input type="text" name="email" id="email"
+                               class="contact-form__email  contact-form--active">
                     </p>
                     <p class="contact-form__inner-space">
                         <label class="contact-form__labels" for="question_options">Question type:</label>
                     </p>
                     <p class="contact-form__inner-space">
-                        <select name="question_options" class="contact-form__question-option" id="question_options">
+                        <select name="question_options" class="contact-form__question-option"
+                                id="question_options">
                             <option value="about_application">about application</option>
                             <option value="problem">problem</option>
                             <option value="other">other</option>

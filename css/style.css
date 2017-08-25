@@ -9,14 +9,11 @@ html, body {
 }
 
 body {
-    margin: 0;
     padding: 0;
 }
 
 .hdr {
     width: 100%;
-    /*height: 300px;*/
-
 }
 
 .mn {
@@ -24,49 +21,45 @@ body {
     width: 65%;
 }
 
+/* styles for description section */
 .sct1 {
     width: 100%;
     box-shadow: 8px 8px 8px rgba(0,0,0,0.3);
 }
 
-.qstn {
-    border: 1px solid black;
-}
-
-.short-dscr {
+.sct1__short-dscr {
     border-bottom: 1px solid black;
 }
 
-.short-dscr span {
+.sct1__short-dscr span {
     font-size: 25px;
 }
 
-.short-dscr__span-wise {
+.sct1__short-dscr--span-wise {
     color: green;
 }
 
-.short-dscr__par {
+.sct1__short-dscr--par {
     padding: 0 20px;
     letter-spacing: 3px;
     line-height: 2em;
     text-align: center;
 }
 
-.short-dscr__list {
+.sct1__short-dscr--list {
     list-style-type: none;
     font-weight: bold;
     padding: 0;
     margin: 0;
-    /*position: relative;
-    top: -30px;*/
 }
 
-.short-dscr__list li {
+.sct1__short-dscr--list li {
     letter-spacing: 2px;
     text-align: center;
     line-height: 30px;
     color: darkred;
 }
+ /* end of styles for description section*/
 
 .sct2 {
     height: 35%;

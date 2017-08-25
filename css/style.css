@@ -1,5 +1,8 @@
 @import url(grid_style.css);
 
+* {
+    /*border: 1px solid black;*/
+}
 
 html, body {
     height: 100%;
@@ -26,12 +29,7 @@ body {
     box-shadow: 8px 8px 8px rgba(0,0,0,0.3);
 }
 
-.desc_hd {
-    margin: 5px auto;
-    text-align: center;
-    letter-spacing: 5px;
 
-}
 
 .qstn {
     border: 1px solid black;
@@ -50,7 +48,7 @@ body {
 }
 
 .short-dscr__par {
-    padding: 20px;
+    padding: 0 20px;
     letter-spacing: 3px;
     line-height: 2em;
     text-align: center;
@@ -59,8 +57,10 @@ body {
 .short-dscr__list {
     list-style-type: none;
     font-weight: bold;
-    position: relative;
-    top: -30px;
+    padding: 0;
+    margin: 0;
+    /*position: relative;
+    top: -30px;*/
 }
 
 .short-dscr__list li {

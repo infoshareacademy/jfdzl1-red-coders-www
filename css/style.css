@@ -24,65 +24,37 @@ body {
 }
 
 .sct1 {
-    height: 35%;
     width: 100%;
+    box-shadow: 8px 8px 8px rgba(0,0,0,0.3);
 }
 
 .desc_hd {
     margin: 5px auto;
     text-align: center;
     letter-spacing: 5px;
-
 }
 
 .qstn {
     border: 1px solid black;
-    background-image: linear-gradient(#62a6ea, #1175d8);
 }
 
 .short-dscr {
     border-bottom: 1px solid black;
 }
 
-.qstn__small {
-    width: 50%;
-    text-align: center;
-    margin: 10px;
-    position: relative;
-    top: 10px;
-    font-size: 20px;
-    letter-spacing: 5px;
-    color: white;
-}
-
-.qstn__medium {
-    width: 90%;
-    font-size: 30px;
-    text-align: center;
-    letter-spacing: 5px;
-    position: relative;
-    left: 150px;
-    color: white;
-}
-
-.qstn__big {
-    text-align: center;
-    font-size: 40px;
-    letter-spacing: 5px;
-    margin: 10px auto;
-    padding-bottom: 10px;
-    color: white;
-}
-
 .short-dscr span {
     font-size: 25px;
 }
 
+.short-dscr__span-wise {
+    color: green;
+}
+
 .short-dscr__par {
-    padding: 10px;
-    letter-spacing: 2px;
-    line-height: 1.5em;
-    text-align: justify;
+    padding: 20px;
+    letter-spacing: 3px;
+    line-height: 2em;
+    text-align: center;
 }
 
 .short-dscr__list {
@@ -96,6 +68,7 @@ body {
     letter-spacing: 2px;
     text-align: center;
     line-height: 30px;
+    color: darkred;
 }
 
 .sct2 {
@@ -113,16 +86,4 @@ body {
     width: 1000px;
     height: 100px;
     margin: 0 auto;
-}
-
-.product_functions {
-    font-family: "Lato";
-    border-style: ridge;
-}
-
-.list {
-    text-align: left;
-    list-style-type: circle;
-    padding: 20px 5px;
-    border-style: none;
 }

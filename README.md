@@ -2,11 +2,14 @@
 
 The repository until now contains an introductory version of the _landing page_ for our application with a tricky name
  __Yawn Killer__.
- 
- Application is supposed to help the user manage their free time in a not usuall manner.
+
+Application is supposed to help the user manage their free time in a not usuall manner.
 It is developed to prompt interesting cultural events taking place in Lublin, cinema repertories, theatre and opera
- performences ... 
+performences ...
 
+## Info
+* Development branch: `development`
+* Production branch: `master`
 
-
-Demo: [click here](http://red-coders.jfdzl1.is-academy.pl)
+## Demo
+Built from develop: [click here](http://red-coders.jfdzl1.is-academy.pl)

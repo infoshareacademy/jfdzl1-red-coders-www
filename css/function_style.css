@@ -9,24 +9,27 @@
 
 .pfunct {
     font-family: 'Lato', sans-serif;
-    text-align: left;
+    /*text-align: left;
     padding: 20px 5px;
     margin: 15px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;*/
 }
 
-.col_fct {
+/*.col_fct {
     position: relative;
     width: 30%;
     display: flex;
     flex-direction: column;
     float: left;
-}
+}*/
 
 .list_img {
-    width: 40%;
-    height: 70%;
+    /*width: 40%;
+    height: 70%;*/
+    width: 110px;
+    height: 80px;
+    display: block;
 }
 
 #list_logo {
@@ -36,13 +39,25 @@
     background-size: contain;
 }
 
+.pfunct .col-6:nth-of-type(2n) {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pfunct .col-6 {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
 .list_fct {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 100%;
-    height: 100%;
+    /*width: 100%;
+    height: 100%;*/
+    width: 65%;
+    padding: 15px 0;
 }
 
 .overlay_list {

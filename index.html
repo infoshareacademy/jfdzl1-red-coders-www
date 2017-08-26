@@ -7,7 +7,6 @@
     <link href="./images/favicon.png" rel=icon sizes="16x16" type="img">
     <link href="./css/normalize.css" type="text/css" rel="stylesheet">
     <link href="css/style.css" type="text/css" rel="stylesheet">
-    <link href="css/style.css" type="text/css" rel="stylesheet">
     <link href='css/style_header.css' rel='stylesheet' type='text/css'>
     <link href='css/style_components.css' rel='stylesheet' type='text/css'>
     <link href='css/function_style.css' rel='stylesheet' type='text/css'>
@@ -17,70 +16,132 @@
 <header class="header">
     <div class="header__background"></div>
     <div class="mn">
-        <div class="header__top">
-            <div class="header__left-container">
-                <div class="header__logo">
-                    <img class="logo__image" src="./images/logo_yawn_killer_color.png"></div>
+        <div class="row header__top">
+            <div class="col-6">
+                <img class="logo__image" src="./images/logo_yawn_killer_color.png">
             </div>
-            <div class="header__right-container">
-                <nav class="header__nav">
-                    <ul class="nav__list">
-                        <li class="nav__element">
-                            <a class="btn nav__link btn--rounded" href="#">About app</a>
-                        </li>
-                        <li class="nav__element">
-                            <a class="btn nav__link btn--rounded" href="#">Main features</a>
-                        </li>
-                        <li class="nav__element nav__element--last">
-                            <a class="btn btn--white btn--rounded nav__link nav__link--contact" href="#">Stay
-                                connected</a>
-                        </li>
-                    </ul>
-                </nav>
+            <nav>
+                <div class="col-2">
+                    <div class="menu__item">
+                        <a class="btn nav__link btn--rounded" href="#">About&nbsp;app</a>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="menu__item">
+                        <a class="btn nav__link btn--rounded" href="#">Main&nbsp;features</a>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="menu__item">
+                        <a class="btn btn--white btn--rounded nav__link nav__link--contact"
+                           href="#">Stay&nbsp;connected</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col-12 main-slogan__text1">No idea what to do in the afternoon?</div>
+        </div>
+        <div class="row text2">
+            <div class="col-12 main-slogan__text2">Willing to spend the evening unlike usually?</div>
+        </div>
+        <div class="row">
+            <h1 class="col-12 main-slogan__text3">
+                Yawn Killer can help you manage your free time! </h1>
+        </div>
+        <div class="row header__buttons">
+            <div class="col-6">
+                <button class="btn btn--white header-button" type="button">How can YK help you?</button>
             </div>
-        </div>
-        <div class="header__main-slogan">
-            <h1 class="main-slogan__text">No idea what to do in the afternoon?</h1>
-        </div>
-        <div class="header__main-description">
-            <h2 class="main-description__text">Willing to spend the evening unlike usually? Yawn Killer can help you<br>manage
-                your free time!</h2>
-        </div>
-        <div class="header__buttons">
-            <button class="btn btn--white header-button" type="button">How can YK help you?</button>
-            <button class="btn btn--cta header-button" type="button">Be informed about news</button>
+            <div class="col-6">
+                <button class="btn btn--cta header-button" type="button">Be informed about news</button>
+            </div>
         </div>
     </div>
-    <div class="header__app">
-        <img class="app__image" src="./images/header__app.png">
+    <div class="row header__app">
+        <div class="col-12">
+            <img class="app__image" src="./images/header__app.png">
+        </div>
     </div>
 </header>
 <main>
     <div class="mn">
         <div class="sct1">
-            <div class="short-dscr">
-                <p class="short-dscr__par">Arranging activities within free time is no longer a piece of cake. In the
-                    remote past, people willingly met outside to go for a walk or reached for a book when felt like
-                    staying at home... In this day and
-                    age,
-                    however, permanently in haste and information overwhelmed - we find it difficult to rest
-                    <span class="short-dscr__span-wise">wisely</span>.
-                </p>
+            <div class="row sct1__short-dscr">
+                <div class="col-12">
+                    <p class="sct1__short-dscr--par">Arranging activities within free time is no longer a piece of cake. In the
+                        remote past, people willingly met outside to go for a walk or reached for a book when felt like
+                        staying at home... In this day and
+                        age,
+                        however, permanently in haste and information overwhelmed - we find it difficult to rest
+                        <span class="sct1__short-dscr--span-wise">wisely</span>.
+                    </p>
+                </div>
             </div>
-            <div class="short-dscr__container">
-                <p class="short-dscr__par"><span>Yawn Killer</span> offers you a plenty of ideas for how to relax alone,
-                    with friends or family. Among others, _Y_K prompts you:</p>
-                <ul class="short-dscr__list">
-                    <li>cultural events taking place in Lublin in the foreseable future</li>
-                    <li>cinema repertories, theatre &amp; opera performances</li>
-                    <li>recommended e-books &amp; films online free</li>
-                </ul>
+            <div class="row">
+                <div class="col-12">
+                    <p class="sct1__short-dscr--par"><span>Yawn Killer</span> offers you a plenty of ideas for how to relax alone,
+                        with friends or family. Among others, _Y_K prompts you:</p>
+                    <ul class="sct1__short-dscr--list">
+                        <li>cultural events taking place in Lublin in the foreseable future</li>
+                        <li>cinema repertories, theatre &amp; opera performances</li>
+                        <li>recommended e-books &amp; films online free</li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="sct2">
-            <h1 class="header_pfunct">Product Functions</h1>
+            <div class="row">
+                <h1 class="col-12 header_pfunct">Product Functions</h1>
+            </div>
             <div class="pfunct">
-                <div class="col_fct">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="list_fct">
+                            <img class="list_img" src="./images/movie-clapper-board-blank.png"/>
+                            <div class="overlay_list">
+                                <div class="list_text">
+                                    Large choice of activities.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="list_fct">
+                            <img class="list_img" src="./images/icon-game-controller-a-512.png"/>
+                            <div class="overlay_list">
+                                <div class="list_text">
+                                    Clear and intuitive application.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="list_fct">
+                            <img class="list_img" src="./images/theater_masks_silhouette.png"/>
+                            <div class="overlay_list">
+                                <div class="list_text">
+                                    Possibility of remembering our decisions.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="list_fct">
+                            <img class="list_img" src="./images/books-stack-of-three_318-45543.jpg"/>
+                            <div class="overlay_list">
+                                <div class="list_text">
+                                    OVER THERE4Never desire a bilge rat.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--<div class="col_fct">
                     <div class="list_fct">
                         <img class="list_img" src="./images/movie-clapper-board-blank.png"/>
                         <div class="overlay_list">
@@ -116,14 +177,12 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
         <div class="sct3">
-            <form method="POST" action="" class="contact-form">
-                <!--http://api.jfdzl1.is-academy.pl/emailer.php-->
+            <form method="POST" action="" class="row contact-form">
                 <fieldset class="contact-form__container">
-                    <input type="hidden" name="reply-to" value="yawnkiller.contact@gmail.com">
                     <legend class="contact-form__title">Send some message to me</legend>
                     <p class="contact-form__inner-space">
                         <label class="contact-form__labels" for="name">Your name: </label>
@@ -150,8 +209,6 @@
                             <option value="other">other</option>
                         </select>
                     </p>
-
-
                     <p class="contact-form__inner-space">
                         <label class="contact-form__labels" for="message">Message: </label>
                         <textarea name="message" id="message"
@@ -164,8 +221,10 @@
     </div>
 </main>
 <footer>
-    <div class="ft">
-        <small>Created by &copy;Red Coders Team 2017</small>
+    <div class="row ft">
+        <div class="col-12">
+            <small>Created by &copy;Red Coders Team 2017</small>
+        </div>
     </div>
 </footer>
 </body>

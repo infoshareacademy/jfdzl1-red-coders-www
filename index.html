@@ -75,7 +75,8 @@
         <div class="sct1">
             <div class="row sct1__short-dscr">
                 <div class="col-12">
-                    <p class="sct1__short-dscr--par">Arranging activities within free time is no longer a piece of cake. In the
+                    <p class="sct1__short-dscr--par">Arranging activities within free time is no longer a piece of cake.
+                        In the
                         remote past, people willingly met outside to go for a walk or reached for a book when felt like
                         staying at home... In this day and
                         age,
@@ -86,7 +87,8 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <p class="sct1__short-dscr--par"><span>Yawn Killer</span> offers you a plenty of ideas for how to relax alone,
+                    <p class="sct1__short-dscr--par"><span>Yawn Killer</span> offers you a plenty of ideas for how to
+                        relax alone,
                         with friends or family. Among others, _Y_K prompts you:</p>
                     <ul class="sct1__short-dscr--list">
                         <li>cultural events taking place in Lublin in the foreseable future</li>
@@ -186,43 +188,30 @@
                 </div>-->
             </div>
         </div>
-        <div class="sct3">
-            <form method="POST" action="" class="row contact-form">
-                <fieldset class="contact-form__container">
-                    <legend class="contact-form__title">Send some message to me</legend>
-                    <p class="contact-form__inner-space">
-                        <label class="contact-form__labels" for="name">Your name: </label>
-                    </p>
-                    <p class="contact-form__inner-space">
-                        <input type="text" name="name" id="name"
-                               class="contact-form__name contact-form--active">
-                    </p>
-                    <p class="contact-form__inner-space">
-                        <label class="contact-form__labels" for="email">Your e-mail: </label>
-                    </p>
-                    <p class="contact-form__inner-space">
-                        <input type="text" name="email" id="email"
-                               class="contact-form__email  contact-form--active">
-                    </p>
-                    <p class="contact-form__inner-space">
-                        <label class="contact-form__labels" for="question_options">Question type:</label>
-                    </p>
-                    <p class="contact-form__inner-space">
-                        <select name="question_options" class="contact-form__question-option"
-                                id="question_options">
-                            <option value="about_application">about application</option>
-                            <option value="problem">problem</option>
-                            <option value="other">other</option>
-                        </select>
-                    </p>
-                    <p class="contact-form__inner-space">
-                        <label class="contact-form__labels" for="message">Message: </label>
-                        <textarea name="message" id="message"
-                                  class="contact-form__message  contact-form--active"></textarea>
-                    </p>
-                    <input type="submit" value="Send" class="send-button">
-                </fieldset>
-            </form>
+        <div class="row">
+            <div class="col-xs-3">
+                <form method="POST" action="" class="row contact-form">
+                    <fieldset>
+                        <div class="form-group">
+                            <legend>Send some message to me</legend>
+                            <label for="name">Your name: </label>
+                            <input type="text" name="name" id="name" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your e-mail: </label>
+                            <input type="text" name="email" id="email" class="form-control">
+
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message: </label>
+                            <textarea name="message" id="message" class="form-control" rows="5"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Send" class="btn btn-primary btn-lg btn-block">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
         </div>
     </div>
 </main>

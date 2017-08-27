@@ -9,6 +9,8 @@
 
 .pfunct {
     font-family: 'Lato', sans-serif;
+    padding-bottom: 0;
+    padding-top: 0;
     /*text-align: left;
     padding: 20px 5px;
     margin: 15px;
@@ -16,25 +18,10 @@
     justify-content: space-around;*/
 }
 
-.list_img {
-    background: url('../images/cloud-flat.png)') no-repeat;
-    background-position: center;
-}
-
 #list_logo {
     width: 30%;
     background: url('../images/') no-repeat;
     background-position: center;
-}
-
-.pfunct .col-6:nth-of-type(2n) {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.pfunct .col-6 {
-    padding-bottom: 0;
-    padding-top: 0;
 }
 
 .list_fct {

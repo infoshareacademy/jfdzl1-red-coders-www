@@ -22,7 +22,7 @@ body {
 /* styles for description section */
 .sct1 {
     width: 100%;
-    box-shadow: 8px 8px 8px rgba(0,0,0,0.3);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3);
 }
 
 .sct1__short-dscr {
@@ -57,23 +57,30 @@ body {
     line-height: 30px;
     color: darkred;
 }
- /* end of styles for description section*/
 
-footer {
-    background-color: #c66d7e;
-}
+/* end of styles for description section*/
+
 
 .ft {
-    /*width: 1000px;
-    height: 100px;*/
     text-align: center;
     margin: 0 auto;
     font-family: 'Lato', sans-serif;
     background-color: #c66d7e;
-    padding-top: 300px;
+    padding-top: 200px;
 }
 
 .team-logo {
-    height: 30px;
+    height: 50px;
+
+}
+
+.skew {
+    background-color: #c66d7e;
+    padding: 100px 0;
+    -ms-transform: skew(0deg, -5deg); /* IE 9 */
+    -webkit-transform: skew(0deg,-5deg); /* Safari */
+    transform: skew(0deg,-5deg);
+    top: 90px;
+    bottom: 0px;
 }
 

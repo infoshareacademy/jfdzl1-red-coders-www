@@ -21,29 +21,30 @@
 <body>
 <header class="header">
     <div class="header__background"></div>
-    <div class="mn">
+    <div class="container">
         <div class="row header__top">
-            <div class="col-6">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                 <img class="logo__image" src="./images/logo_yawn_killer_color.png">
             </div>
-            <nav>
-                <div class="col-2">
-                    <div class="menu__item">
-                        <a class="btn nav__link btn--rounded" href="#">About&nbsp;app</a>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                <nav class="navbar navbar-default">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
                     </div>
-                </div>
-                <div class="col-2">
-                    <div class="menu__item">
-                        <a class="btn nav__link btn--rounded" href="#">Main&nbsp;features</a>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a class="btn nav__link btn--rounded" href="#">About app</a></li>
+                            <li><a class="btn nav__link btn--rounded" href="#">Main features</a></li>
+                            <li><a class="btn btn--white btn--rounded nav__link nav__link--contact" href="#">Stay connected</a></li>
+                        </ul>
                     </div>
-                </div>
-                <div class="col-2">
-                    <div class="menu__item">
-                        <a class="btn btn--white btn--rounded nav__link nav__link--contact"
-                           href="#">Stay&nbsp;connected</a>
-                    </div>
-                </div>
-            </nav>
+                </nav>
+            </div>
         </div>
         <div class="row">
             <div class="col-12 main-slogan__text1">No idea what to do in the afternoon?</div>

@@ -1,4 +1,3 @@
-/*@import url(grid_style.css);*/
 
 * {
     /*border: 1px solid black;*/
@@ -68,23 +67,3 @@ body {
     text-align: center;
     margin: 0 auto;
 }
-
-/*@media (min-width: 768px) {
-    .mn {
-        width: 80%;
-    }
-
-    .ft {
-        width: 80%;
-    }
-}
-
-@media (min-width: 992px) {
-    .mn {
-        width: 65%;
-    }
-
-    .ft {
-        width: 65%;
-    }
-}*/

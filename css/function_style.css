@@ -16,27 +16,15 @@
     justify-content: space-around;*/
 }
 
-/*.col_fct {
-    position: relative;
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    float: left;
-}*/
-
 .list_img {
-    /*width: 40%;
-    height: 70%;*/
-    width: 110px;
-    height: 80px;
-    display: block;
+    background: url('../images/cloud-flat.png)') no-repeat;
+    background-position: center;
 }
 
 #list_logo {
     width: 30%;
     background: url('../images/') no-repeat;
     background-position: center;
-    background-size: contain;
 }
 
 .pfunct .col-6:nth-of-type(2n) {
@@ -50,13 +38,8 @@
 }
 
 .list_fct {
-    display: flex;
-    justify-content: center;
     align-items: center;
     position: relative;
-    /*width: 100%;
-    height: 100%;*/
-    width: 65%;
     padding: 15px 0;
 }
 
@@ -70,7 +53,7 @@
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: rosybrown;
+    background-color: white;
 }
 
 .list_fct:hover .overlay_list {

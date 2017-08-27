@@ -59,28 +59,3 @@ body {
 }
 
 /* end of styles for description section*/
-
-
-.ft {
-    text-align: center;
-    margin: 0 auto;
-    font-family: 'Lato', sans-serif;
-    background-color: #c66d7e;
-    padding-top: 200px;
-}
-
-.team-logo {
-    height: 50px;
-
-}
-
-.skew {
-    background-color: #c66d7e;
-    padding: 100px 0;
-    -ms-transform: skew(0deg, -5deg); /* IE 9 */
-    -webkit-transform: skew(0deg,-5deg); /* Safari */
-    transform: skew(0deg,-5deg);
-    top: 90px;
-    bottom: 0px;
-}
-

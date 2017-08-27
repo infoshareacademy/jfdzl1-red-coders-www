@@ -8,10 +8,11 @@
     font-family: 'Lato', sans-serif;
 }
 
+
 .header__background {
     position: absolute;
     height: 100%;
-    width: 100%;
+    width: 110%;
     background-image: url('../images/header__background.jpg');
     background-size: cover;
     animation: background-animation 17.5s linear 0.5s infinite alternate;
@@ -44,7 +45,7 @@
     display: flex;
 }
 
-nav .col-2 {
+nav .col-xs-2 {
     padding: 15px 5px;
 }
 
@@ -180,7 +181,7 @@ a.nav__link--contact:hover {
     margin: 0 15px;
 }
 
-.header__buttons .col-6:first-child {
+.header__buttons .col-xs-6:first-child {
     display: flex;
     justify-content: flex-end;
 }
@@ -212,7 +213,7 @@ a.nav__link--contact:hover {
     }
 }
 
-.header__app .col-12 {
+.header__app .col-xs-12 {
     padding-bottom: 0;
 }
 

@@ -1,3 +1,4 @@
+
 * {
     /*border: 1px solid black;*/
 }
@@ -10,19 +11,19 @@ body {
     padding: 0;
 }
 
-.hdr {
+/*.hdr {
     width: 100%;
-}
+}*/
 
-.mn {
+/*.mn {
     margin: 0 auto;
-    width: 65%;
-}
+    width: 95%;
+}*/
 
 /* styles for description section */
 .sct1 {
     width: 100%;
-    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 8px 8px 8px rgba(0,0,0,0.3);
 }
 
 .sct1__short-dscr {

@@ -1,4 +1,4 @@
-@import url(grid_style.css);
+/*@import url(grid_style.css);*/
 
 * {
     /*border: 1px solid black;*/
@@ -12,14 +12,14 @@ body {
     padding: 0;
 }
 
-.hdr {
+/*.hdr {
     width: 100%;
-}
+}*/
 
-.mn {
+/*.mn {
     margin: 0 auto;
-    width: 65%;
-}
+    width: 95%;
+}*/
 
 /* styles for description section */
 .sct1 {
@@ -64,7 +64,27 @@ body {
 .ft {
     /*width: 1000px;
     height: 100px;*/
-    width: 65%;
+    width: 95%;
     text-align: center;
     margin: 0 auto;
 }
+
+/*@media (min-width: 768px) {
+    .mn {
+        width: 80%;
+    }
+
+    .ft {
+        width: 80%;
+    }
+}
+
+@media (min-width: 992px) {
+    .mn {
+        width: 65%;
+    }
+
+    .ft {
+        width: 65%;
+    }
+}*/

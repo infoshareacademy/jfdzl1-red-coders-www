@@ -188,26 +188,26 @@
             </div>
         </div>
         <div class="row">
-            <div class="sct3 col-xs-12">
+            <div class="col-xs-3">
                 <form method="POST" action="" class="row contact-form">
-                    <fieldset class="contact-form__container">
+                    <fieldset>
                         <div class="form-group">
                             <legend>Send some message to me</legend>
-                                <label class="contact-form__labels" for="name">Your name: </label>
-                                <input type="text" name="name" id="name">
+                            <label for="name">Your name: </label>
+                            <input type="text" name="name" id="name" class="form-control">
                         </div>
                         <div class="form-group">
-                                <label class="contact-form__labels" for="email">Your e-mail: </label>
-                                <input type="text" name="email" id="email">
+                            <label for="email">Your e-mail: </label>
+                            <input type="text" name="email" id="email" class="form-control">
 
                         </div>
                         <div class="form-group">
-                                <label class="contact-form__labels" for="question_options">Question type:</label>
+                            <label for="message">Message: </label>
+                            <textarea name="message" id="message" class="form-control" rows="5"></textarea>
                         </div>
-                            <label class="contact-form__labels" for="message">Message: </label>
-                            <textarea name="message" id="message"
-                                      class="contact-form__message  contact-form--active"></textarea>
-                        <input type="submit" value="Send" class="btn btn-default">
+                        <div class="form-group">
+                            <input type="submit" value="Send" class="btn btn-primary btn-lg btn-block">
+                        </div>
                     </fieldset>
                 </form>
             </div>

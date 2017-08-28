@@ -1,0 +1,25 @@
+.ft {
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    text-shadow: 1px 1px 1px #636363;
+}
+
+.team-logo {
+    height: 50px;
+}
+
+.skew {
+    -webkit-clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 35%, 100% 0, 100% 100%, 0 100%);
+    padding-top: 200px;
+}
+
+.footer-gradient {
+    background: #F27175;
+    background: -webkit-linear-gradient(left top, #FAA658, #ED478E);
+    background: -o-linear-gradient(bottom right, #FAA658, #ED478E);
+    background: -moz-linear-gradient(bottom right, #FAA658, #ED478E);
+    background: linear-gradient(to bottom right, #FAA658, #ED478E);
+}

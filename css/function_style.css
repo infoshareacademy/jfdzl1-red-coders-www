@@ -19,6 +19,7 @@
 .list_img {
     background: url('../images/cloud-flat.png)') no-repeat;
     background-position: center;
+    max-height: 50px;
 }
 
 #list_logo {

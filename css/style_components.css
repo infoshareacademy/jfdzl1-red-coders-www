@@ -6,7 +6,7 @@
     border-radius: 5px 5px 5px 5px;
     background: transparent;
     color: #000;
-    padding: 10px 30px;
+    padding: 10px 20px;
     font-size: 16px;
     transition: all 0.3s;
     -webkit-transition: all 0.3s;
@@ -14,8 +14,8 @@
 
 .btn:hover {
     cursor: pointer;
-    border-color: #3187b1;
-    background: #3187b1;
+    border-color: #92b945;
+    background: #92b945;
     color: #fff;
 }
 
@@ -26,11 +26,5 @@
 
 .btn--white {
     border-color: #fff;
-    color: #fff;
-}
-
-.btn--cta {
-    border-color: #92b945;
-    background-color: #92b945   ;
     color: #fff;
 }

@@ -15,7 +15,7 @@
     background-image: url('../images/header__background.jpg');
     background-size: cover;
     animation: background-animation 17.5s linear 0.5s infinite alternate;
-    -webkit-animation: background-animation 17.5s linear    0.5s infinite alternate;
+    -webkit-animation: background-animation 17.5s linear 0.5s infinite alternate;
     z-index: -1;
 }
 

@@ -1,5 +1,10 @@
+#sct2 {
+    margin:25px;
+}
 .header_pfunct {
     text-align: center;
+    color: #ff4b44;
+    margin: 25px;
 }
 
 .header_pfunct:hover {
@@ -18,16 +23,18 @@
     justify-content: space-around;*/
 }
 
-#list_logo {
-    width: 30%;
-    background: url('../images/') no-repeat;
-    background-position: center;
-}
-
 .list_fct {
     align-items: center;
     position: relative;
     padding: 15px 0;
+}
+
+.span {
+    font-size: 1500%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff5e89;
 }
 
 .overlay_list {
@@ -49,6 +56,7 @@
 }
 
 .list_text {
+    text-align: center;
     font-family: 'Lato', sans-serif;
     color: #1175d8;
     position: absolute;

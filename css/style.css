@@ -24,10 +24,7 @@ body {
 .sct1 {
     width: 100%;
     box-shadow: 8px 8px 8px rgba(0,0,0,0.3);
-}
-
-.sct1__short-dscr {
-    border-bottom: 1px solid black;
+    padding-top: 15px;
 }
 
 .sct1__short-dscr span {
@@ -45,6 +42,11 @@ body {
     text-align: center;
 }
 
+.border {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
 .sct1__short-dscr--list {
     list-style-type: none;
     font-weight: bold;
@@ -57,6 +59,13 @@ body {
     text-align: center;
     line-height: 30px;
     color: darkred;
+    padding: 10px 0;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+
+.up {
+    font-size: 1em;
+    text-align: center;
 }
 
 /* end of styles for description section*/

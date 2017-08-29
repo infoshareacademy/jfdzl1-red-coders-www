@@ -44,8 +44,33 @@
     display: flex;
 }
 
-nav .col-2 {
-    padding: 15px 5px;
+.navbar-nav {
+    float: right;
+}
+
+.navbar-nav > li {
+    padding: 0 15px;
+}
+
+.navbar-nav > li:last-child {
+    padding-right: 0;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    background: none;
+}
+
+.nav > li > a.nav__link--contact:hover:hover, .nav > li > a.nav__link--contact:hover:focus{
+    border-color: #92b945;
+    background: #92b945;
+}
+
+.navbar-toggle {
+    background: #fff;
+}
+
+.navbar-toggle .icon-bar {
+    background: #555555;
 }
 
 a.nav__link {
@@ -58,11 +83,6 @@ a.nav__link {
 a.nav__link:hover {
     border-color: #fff;
     background: transparent;
-}
-
-a.nav__link--contact:hover {
-    border-color: #3187b1;
-    background: #3187b1;
 }
 
 .main-slogan__text1 {

@@ -1,0 +1,11 @@
+@media screen and (max-height: 768px) {
+
+    .main-slogan__background {
+        top: 80px;
+    }
+
+    .main-slogan__text1 {
+        margin: 40px 0 0 0;
+    }
+
+}

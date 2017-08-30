@@ -85,6 +85,20 @@ a.nav__link:hover {
     background: transparent;
 }
 
+.btn.nav__link {
+    border-color: transparent;
+}
+
+.btn.nav__link--contact {
+    border-color: #fff;
+}
+
+.navbar-collapse {
+    border: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
 .main-slogan {
     position: relative;
     -webkit-transform: scale(1.05, 1.05);

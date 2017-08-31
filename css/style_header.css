@@ -8,15 +8,14 @@
     font-family: 'Lato', sans-serif;
 }
 
-
 .header__background {
     position: absolute;
     height: 100%;
-    width: 110%;
+    width: 100%;
     background-image: url('../images/header__background.jpg');
     background-size: cover;
     animation: background-animation 17.5s linear 0.5s infinite alternate;
-    -webkit-animation: background-animation 17.5s linear    0.5s infinite alternate;
+    -webkit-animation: background-animation 17.5s linear 0.5s infinite alternate;
     z-index: -1;
 }
 
@@ -45,8 +44,33 @@
     display: flex;
 }
 
-nav .col-xs-2 {
-    padding: 15px 5px;
+.navbar-nav {
+    float: right;
+}
+
+.navbar-nav > li {
+    padding: 0 15px;
+}
+
+.navbar-nav > li:last-child {
+    padding-right: 0;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    background: none;
+}
+
+.nav > li > a.nav__link--contact:hover:hover, .nav > li > a.nav__link--contact:hover:focus{
+    border-color: #92b945;
+    background: #92b945;
+}
+
+.navbar-toggle {
+    background: #fff;
+}
+
+.navbar-toggle .icon-bar {
+    background: #555555;
 }
 
 a.nav__link {
@@ -61,129 +85,226 @@ a.nav__link:hover {
     background: transparent;
 }
 
-a.nav__link--contact:hover {
-    border-color: #3187b1;
-    background: #3187b1;
+.btn.nav__link {
+    border-color: transparent;
+}
+
+.btn.nav__link--contact {
+    border-color: #fff;
+}
+
+.navbar-collapse {
+    border: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.main-slogan {
+    position: relative;
+    -webkit-transform: scale(1.05, 1.05);
+    transform: scale(1.05, 1.05);
+}
+
+.main-slogan__background {
+    position: absolute;
+    top: 155px;
+    left: 30px;
+    content: url('../images/slogan__background.png');
+    opacity: 0;
+    animation: slogan-background-animation 1.25s ease 1.75s 1 forwards;
+    -webkit-animation: slogan-background-animation 1.25s ease 1.75s 1 forwards;
+}
+
+@keyframes slogan-background-animation {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0.95, 0.95) rotate(-2deg);
+        transform: scale(0.95, 0.95) rotate(-2deg);
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1, 1) rotate(-2deg);
+        transform: scale(1, 1) rotate(-2deg);
+    }
+}
+
+.main-slogan__text {
+    margin-top: 10px;
+    text-align: center;
 }
 
 .main-slogan__text1 {
-    margin: 50px 0 0 0;
+    margin: 125px 0 0 0;
+    padding: 2px 45px;
+    font-family: 'Lato', sans-serif;
     font-weight: 300;
-    color: #fff;
-    padding: 0 15px;
     font-size: 25px;
-    text-shadow: 1px 1px 1px #636363;
+    line-height: 25px;
+    color: #fff;
+    text-shadow: none;
     opacity: 0;
-    animation: slogan-animation1 1s cubic-bezier(.24,.78,.31,.84) 0.25s 1 forwards;
-    -webkit-animation: slogan-animation1 1s cubic-bezier(.24,.78,.31,.84) 0.25s 1 forwards;
+    animation: slogan-animation1 9.5s cubic-bezier(0.23, 1, 0.32, 1) 0.5s 1 forwards;
+    -webkit-animation: slogan-animation1 9.5s cubic-bezier(0.23, 1, 0.32, 1) 0.5s 1 forwards;
 }
 
 @keyframes slogan-animation1 {
     0% {
         opacity: 0;
-        transform:translateY(-200px);
-        -webkit-transform:translateY(-200px);
+        transform:translateX(-100px) rotate(-2deg);
+        -webkit-transform:translateX(-100px) rotate(-2deg);
     }
 
-    50% {
-        opacity: 0;
+    25% {
+        opacity: 1;
+        transform:translateX(0) rotate(-2deg);
+        -webkit-transform:translateX(0) rotate(-2deg);
     }
 
     100% {
         opacity: 1;
-        transform:translateY(0);
-        -webkit-transform:translateY(0);
+        transform:translateX(0px) rotate(-2deg);
+        -webkit-transform:translateX(0px) rotate(-2deg);
     }
 }
 
 .main-slogan__text2 {
+    padding: 2px 75px;
     color: #fff;
-    font-size: 33px;
-    text-align: right;
-    font-weight: 300;
-    text-shadow: 1px 1px 1px #636363;
+    font-family: 'Droid Serif', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 30px;
+    text-shadow: none;
     opacity: 0;
-    padding: 0 15px;
-    animation: slogan-animation2 1s cubic-bezier(.24,.78,.31,.84) 0.9s 1 forwards;
-    -webkit-animation: slogan-animation2 1s cubic-bezier(.24,.78,.31,.84) 0.9s 1 forwards;
+    animation: slogan-animation2 14.5s cubic-bezier(0.23, 1, 0.32, 1) 1.4s 1 forwards;
+    -webkit-animation: slogan-animation2 14.5s cubic-bezier(0.23, 1, 0.32, 1) 1.4s 1 forwards;
 }
 
 @keyframes slogan-animation2 {
     0% {
         opacity: 0;
-        transform:translateY(-100px);
-        -webkit-transform:translateY(-100px);
+        transform:translateX(100px) rotate(-2deg);
+        -webkit-transform:translateX(100px) rotate(-2deg);
     }
 
-    50% {
-        opacity: 0;
+    25% {
+        opacity: 1;
+        transform:translateX(0) rotate(-2deg);
+        -webkit-transform:translateX(0) rotate(-2deg);
     }
 
     100% {
         opacity: 1;
-        transform:translateY(0);
-        -webkit-transform:translateY(0);
+        transform:translateX(0px) rotate(-2deg);
+        -webkit-transform:translateX(0px) rotate(-2deg);
     }
 }
 
 .main-slogan__text3 {
-    width: 100%;
-    margin: auto;
+    position:relative;
+    padding: 2px 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    line-height: 75px;
+    font-size: 75px;
     color: #fff;
-    font-size: 45px;
-    font-weight: 400;
-    text-shadow: 1px 1px 1px #636363;
-    text-align: center;
+    text-transform: uppercase;
+    text-shadow: none;
     opacity: 0;
-    animation: slogan-animation3 1s cubic-bezier(.24,.78,.31,.84) 1.5s 1 forwards;
-    -webkit-animation: slogan-animation3 1s cubic-bezier(.24,.78,.31,.84) 1.5s 1 forwards;
+    animation: slogan-animation3 2s cubic-bezier(0.23, 1, 0.32, 1) 2.15s 1 forwards;
+    -webkit-animation: slogan-animation3 2s cubic-bezier(0.23, 1, 0.32, 1) 2.15s 1 forwards;
 }
 
 @keyframes slogan-animation3 {
     0% {
         opacity: 0;
-        transform:translateY(-100px);
-        -webkit-transform:translateY(-100px);
+        -webkit-transform: scale(0.95, 0.95) rotate(-2deg);
+        transform: scale(0.95, 0.95) rotate(-2deg);
     }
 
     50% {
-        opacity: 0;
+        opacity: 1;
     }
 
     100% {
         opacity: 1;
-        transform:translateY(0);
-        -webkit-transform:translateY(0);
+        -webkit-transform: scale(1, 1) rotate(-2deg);
+        transform: scale(1, 1) rotate(-2deg);
     }
 }
 
-.header__buttons{
-    opacity: 0;
-    animation: buttons-animation 2s cubic-bezier(.24,.78,.31,.84) 1.9s 1 forwards;
-    -webkit-animation: buttons-animation 2s cubic-bezier(.24,.78,.31,.84) 1.9s 1 forwards;
+.main-slogan__text--no-uppercase {
+    text-transform: none;
 }
 
-@keyframes buttons-animation {
+.main-slogan__text--slim {
+    font-weight: 300;
+}
+
+.main-slogan__text--semibold {
+    font-weight: 300;
+}
+
+.main-slogan__text--neon-revert {
+    color: #ffc76e;
+    animation: neon-revert 0.75s ease 2.5s 1 forwards;
+    -webkit-animation: neon-revert 0.75s ease 2.5s 1 forwards;
+}
+
+.main-slogan__text--neon1 {
+    animation: neon 0.75s ease 3s 1 forwards;
+    -webkit-animation: neon 0.75s ease 3s 1 forwards;
+}
+
+.main-slogan__text--neon2 {
+    animation: neon 0.75s ease 3.5s 1 forwards;
+    -webkit-animation: neon 0.75s ease 3.5s 1 forwards;
+}
+
+.main-slogan__text--neon3 {
+    animation: neon 0.75s ease 4s 1 forwards;
+    -webkit-animation: neon 0.75s ease 4s 1 forwards;
+}
+
+@keyframes neon-revert {
     0% {
-        opacity: 0;
+        color: #ffc76e;
+        text-shadow: none;
     }
 
     50% {
-        opacity: 0;
+        color: #fff;
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ffc76e, 0 0 30px #ffc76e, 0 0 40px #ffc76e, 0 0 50px #ffc76e, 0 0 75px #ffc76e;
     }
 
     100% {
-        opacity: 1;
+        color: #ffc76e;
+        text-shadow: none;
     }
 }
 
-.header-button {
-    margin: 0 15px;
+@keyframes neon {
+    0% {
+        text-shadow: none;
+    }
+
+    50% {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ffc76e, 0 0 30px #ffc76e, 0 0 40px #ffc76e, 0 0 50px #ffc76e, 0 0 75px #ffc76e;
+    }
+
+    100% {
+        text-shadow: none;
+    }
 }
 
-.header__buttons .col-xs-6:first-child {
-    display: flex;
-    justify-content: flex-end;
+.main-slogan__text--pink {
+    color: #fff;
 }
 
 .header__app {
@@ -191,8 +312,8 @@ a.nav__link--contact:hover {
     bottom: 0;
     left: calc(50% - 450px);
     opacity: 0;
-    animation: app-animation 1s cubic-bezier(.24,.78,.31,.84) 2s 1 forwards;
-    -webkit-animation: app-animation 1s cubic-bezier(.24,.78,.31,.84) 2s 1 forwards;
+    animation: app-animation 1s cubic-bezier(.24,.78,.31,.84) 2.5s 1 forwards;
+    -webkit-animation: app-animation 1s cubic-bezier(.24,.78,.31,.84) 2.5s 1 forwards;
 }
 
 @keyframes app-animation {
@@ -213,7 +334,7 @@ a.nav__link--contact:hover {
     }
 }
 
-.header__app .col-xs-12 {
+.header__app .col-12 {
     padding-bottom: 0;
 }
 

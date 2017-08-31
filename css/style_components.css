@@ -19,6 +19,12 @@
     background: #fca15e;
     color: #fff;
 }
+.btn:active {
+    cursor: pointer;
+    border-color: #F79462;
+    background: #fca15e;
+    color: #fff;
+}
 
 .btn--rounded {
     -webkit-border-radius: 30px 30px 30px 30px;

@@ -43,12 +43,36 @@ body {
 }
 
 .sct1__short-dscr--list li {
+    display: flex;
     letter-spacing: 2px;
-    text-align: center;
     line-height: 30px;
     color: darkred;
     padding: 10px 0;
-    box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.par1 {
+    margin: auto;
+    text-align: center;
+}
+
+
+.par2 {
+    margin: auto;
+    text-align: center;
+}
+
+.par3 {
+    margin: auto;
+    text-align: center;
+}
+
+.cur {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink{
+    to{opacity: .0;}
 }
 
 .up {
@@ -57,3 +81,52 @@ body {
 }
 
 /* end of styles for description section*/
+@media screen and (min-width: 678px){
+    .par1 {
+        animation: type 4s steps(60, end);
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    @keyframes type{
+        from { width: 0; }
+    }
+
+    .par2 {
+        animation: type2 8s steps(60, end);
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    @keyframes type2{
+        0%{width: 0;}
+        50%{width: 0;}
+        100%{ width: 100%; }
+    }
+
+    .par3 {
+        animation: type3 13s steps(60, end);
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    @keyframes type3{
+        0%{width: 0;}
+        50%{width: 0;}
+        100%{ width: 100%; }
+    }
+
+    .cur {
+        animation: blink 1s infinite;
+    }
+
+    @keyframes blink{
+        to{opacity: .0;}
+    }
+}

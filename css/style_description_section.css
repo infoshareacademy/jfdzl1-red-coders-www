@@ -1,12 +1,3 @@
-html, body {
-    height: 100%;
-}
-
-body {
-    padding: 0;
-}
-
-/* styles for description section */
 
 .sct1 {
     width: 100%;
@@ -51,23 +42,22 @@ body {
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
-.par1 {
+.sct1__short-dscr--list-par1 {
     margin: auto;
     text-align: center;
 }
 
-
-.par2 {
+.sct1__short-dscr--list-par2 {
     margin: auto;
     text-align: center;
 }
 
-.par3 {
+.sct1__short-dscr--list-par3 {
     margin: auto;
     text-align: center;
 }
 
-.cur {
+.cursor {
     animation: blink 1s infinite;
 }
 
@@ -80,21 +70,22 @@ body {
     text-align: center;
 }
 
-/* end of styles for description section*/
-@media screen and (min-width: 678px){
-    .par1 {
-        animation: type 4s steps(60, end);
+/*style_description_section-->modification towards responsiveness*/
+
+@media screen and (min-width: 700px){
+    .sct1__short-dscr--list-par1 {
+        animation: type1 4s steps(60, end);
         width: 100%;
         white-space: nowrap;
         overflow: hidden;
         text-align: center;
     }
 
-    @keyframes type{
+    @keyframes type1 {
         from { width: 0; }
     }
 
-    .par2 {
+    .sct1__short-dscr--list-par2 {
         animation: type2 8s steps(60, end);
         width: 100%;
         white-space: nowrap;
@@ -102,13 +93,13 @@ body {
         text-align: center;
     }
 
-    @keyframes type2{
+    @keyframes type2 {
         0%{width: 0;}
         50%{width: 0;}
         100%{ width: 100%; }
     }
 
-    .par3 {
+    .sct1__short-dscr--list-par3 {
         animation: type3 13s steps(60, end);
         width: 100%;
         white-space: nowrap;
@@ -116,17 +107,18 @@ body {
         text-align: center;
     }
 
-    @keyframes type3{
+    @keyframes type3 {
         0%{width: 0;}
         50%{width: 0;}
         100%{ width: 100%; }
     }
 
-    .cur {
+    .cursor {
         animation: blink 1s infinite;
     }
 
-    @keyframes blink{
+    @keyframes blink {
         to{opacity: .0;}
     }
 }
+

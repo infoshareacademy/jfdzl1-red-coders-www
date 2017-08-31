@@ -1,16 +1,16 @@
-#sct2 {
-    margin:25px;
-}
 .header_pfunct {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
     color:whitesmoke;
-    margin: 25px;
+    margin: 0 auto;
     background: tomato;
-    -webkit-transform: skew(0deg, -5deg);
+    /*-webkit-transform: skew(0deg, -5deg);
     transform: skew(0deg, -5deg);
+    z-index:top;*/
     padding: 20px 0;
     margin-top: -10px;
-    z-index:top;
 }
 
 .header_pfunct:hover {
@@ -39,9 +39,9 @@
     font-size: 1500%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     color: #ff5e89;
-    z-index: -2;
+    /*z-index: -2;*/
 }
 
 .overlay_list {
@@ -55,7 +55,7 @@
     opacity: 0;
     transition: .5s ease;
     background-color: white;
-    z-index:-1;
+    /*z-index:-1;*/
 }
 .list_fct:hover .overlay_list {
     opacity: 1;

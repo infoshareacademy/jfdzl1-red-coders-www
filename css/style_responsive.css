@@ -10,10 +10,31 @@
 
 }
 
+@media screen and (max-width : 1366px) {
+
+    .main-slogan__background {
+        top: 40px;
+    }
+
+    .main-slogan__text1 {
+        margin: 10px 0 0 0;
+    }
+
+    .main-slogan {
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+
+    .main-slogan__text1 {
+        margin: 10px 0 0 0;
+    }
+
+}
+
 @media screen and (max-width : 1200px) {
 
     .logo__image {
-        max-width: auto;
+        max-width: 300px;
         margin: auto;
     }
 
@@ -27,10 +48,6 @@
     .main-slogan {
         -webkit-transform: scale(0.8, 0.8);
         transform: scale(0.8, 0.8);
-    }
-
-    .main-slogan__text1 {
-        margin: 10px 0 0 0;
     }
 
     .header__app {
@@ -48,6 +65,7 @@
     .main-slogan {
         -webkit-transform: scale(0.7, 0.7);
         transform: scale(0.7, 0.7);
+        margin-top: -60px;
     }
 
     .main-slogan__text1 {

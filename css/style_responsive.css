@@ -94,10 +94,19 @@
 
     .navbar-nav {
         display: block;
-        margin-top: 0;
+        margin-top: 5px;
+        background: rgba(255, 255, 255, 0.1);
+        border: 1ps solid rgba(255, 255, 255, 0.9);
+        -webkit-border-radius: 5px 5px 5px 5px;
+        border-radius: 5px 5px 5px 5px;
     }
     .navbar-nav li {
         margin: 5px 0;
+    }
+
+    .nav > li > a.nav__link--contact:hover:hover, .nav > li > a.nav__link--contact:hover:focus{
+        border-color: #fff;
+        background: transparent;
     }
 
     .btn.nav__link--contact {
@@ -105,7 +114,7 @@
     }
 
     .main-slogan {
-        margin-top: 0;
+        margin-top: -80px;
         -webkit-transform: scale(0.7, 0.7) rotate(2deg);
         transform: scale(0.7, 0.7) rotate(2deg);
     }
@@ -120,6 +129,18 @@
 
 }
 
+@media screen and (max-width : 600px) {
+
+    .navbar-toggle {
+        margin-top: -60px;
+    }
+
+    .main-slogan {
+        margin-top: -110px;
+    }
+
+}
+
 @media screen and (max-width : 480px) {
 
     .navbar-toggle {
@@ -127,6 +148,7 @@
     }
 
     .main-slogan {
+        margin-top: -180px;
         -webkit-transform: scale(0.6, 0.6);
         transform: scale(0.6, 0.6);
     }

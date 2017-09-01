@@ -1,124 +1,56 @@
-
 .sct1 {
-    width: 100%;
-    box-shadow: 8px 8px 8px rgba(0,0,0,0.3);
-    padding-top: 15px;
-    margin-bottom: 50px;
+    padding-top: 60px;
 }
 
-.sct1__short-dscr span {
-    font-size: 25px;
+.head--wisely {
+    color: #e91e63;
+;
 }
 
-.sct1__short-dscr--span-wise {
-    color: green;
+.sct1__short-dscr--head {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 19px;
 }
 
 .sct1__short-dscr--par {
-    padding: 0 20px;
-    letter-spacing: 3px;
-    line-height: 2em;
-    text-align: center;
+    padding-top: 15px;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 300;
 }
 
-.border {
-    border-bottom: 1px solid black;
-    padding-bottom: 10px;
+.sct1__short-dscr--par span {
+    font-weight: 500;
 }
 
 .sct1__short-dscr--list {
     list-style-type: none;
-    font-weight: bold;
+    margin: 30px 0;
     padding: 0;
-    margin: 0;
 }
 
-.sct1__short-dscr--list li {
-    display: flex;
-    letter-spacing: 2px;
+.short-dscr__el {
+    margin: 40px 0px;
+    font-size: 18px;
     line-height: 30px;
-    color: darkred;
-    padding: 10px 0;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    font-weight: 300;
 }
 
-.sct1__short-dscr--list-par1 {
-    margin: auto;
-    text-align: center;
+.sct1__short-dscr--list .glyphicon{
+    display: inline;
+    padding-right: 15px;
+    float: left;
+    font-size: 40px;
+    line-height: 30px;
+    color: #828282;
 }
 
-.sct1__short-dscr--list-par2 {
-    margin: auto;
-    text-align: center;
+.sct1__short-dscr--list p {
+    font-size: 16px;
+    font-weight: 400;
 }
 
-.sct1__short-dscr--list-par3 {
-    margin: auto;
-    text-align: center;
+.screns {
+    margin-top: -45px;
 }
-
-.cursor {
-    animation: blink 1s infinite;
-}
-
-@keyframes blink{
-    to{opacity: .0;}
-}
-
-.up {
-    font-size: 1em;
-    text-align: center;
-}
-
-/*style_description_section-->modification towards responsiveness*/
-
-@media screen and (min-width: 700px){
-    .sct1__short-dscr--list-par1 {
-        animation: type1 4s steps(60, end);
-        width: 100%;
-        white-space: nowrap;
-        overflow: hidden;
-        text-align: center;
-    }
-
-    @keyframes type1 {
-        from { width: 0; }
-    }
-
-    .sct1__short-dscr--list-par2 {
-        animation: type2 8s steps(60, end);
-        width: 100%;
-        white-space: nowrap;
-        overflow: hidden;
-        text-align: center;
-    }
-
-    @keyframes type2 {
-        0%{width: 0;}
-        50%{width: 0;}
-        100%{ width: 100%; }
-    }
-
-    .sct1__short-dscr--list-par3 {
-        animation: type3 13s steps(60, end);
-        width: 100%;
-        white-space: nowrap;
-        overflow: hidden;
-        text-align: center;
-    }
-
-    @keyframes type3 {
-        0%{width: 0;}
-        50%{width: 0;}
-        100%{ width: 100%; }
-    }
-
-    .cursor {
-        animation: blink 1s infinite;
-    }
-
-    @keyframes blink {
-        to{opacity: .0;}
-    }
-}
-

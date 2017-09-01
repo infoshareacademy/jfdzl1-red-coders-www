@@ -1,5 +1,8 @@
 body {
     font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
     color: #222;
 }
 
@@ -27,6 +30,11 @@ a {
     background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%);
     background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 );
+}
+
+.contact-form legend {
+    font-weight: 500;
+    padding-bottom: 10px;
 }
 
 .contact-form label {

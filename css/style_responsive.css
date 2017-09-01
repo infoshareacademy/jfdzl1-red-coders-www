@@ -94,12 +94,19 @@
         height: auto;
     }
 
+    .header__background {
+        background-position: top left;
+        background-size: auto;
+        animation: none;
+        -webkit-animation: none;
+    }
+
     .navbar-toggle {
         margin-top: -70px;
     }
 
     .navbar-collapse {
-        margin-bottom: 30px;
+        margin-bottom: 15px;
     }
 
     .navbar-nav {
@@ -172,7 +179,7 @@
     }
 
     .navbar-collapse {
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
 
     .main-slogan {

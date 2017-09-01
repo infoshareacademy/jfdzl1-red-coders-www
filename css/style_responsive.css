@@ -110,6 +110,12 @@
         display: none;
     }
 
+    .skew {
+        clip-path: none;
+        -webkit-clip-path: none;
+        padding-top: 45px;
+    }
+
 }
 
 @media screen and (max-width : 768px) {
@@ -162,6 +168,23 @@
 
     .main-slogan__text3 br {
         display: none;
+    }
+
+    .team-logo {
+        height: 40px;
+    }
+
+    .ft__bottom {
+        margin-top: 30px;
+    }
+
+    .ft__bottom p {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    .footer_nav  {
+        text-align: center;
     }
 
 }

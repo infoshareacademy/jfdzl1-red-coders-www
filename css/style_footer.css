@@ -3,17 +3,12 @@
     margin: 0 auto;
     font-family: 'Lato', sans-serif;
     color: #fff;
-    text-shadow: 1px 1px 1px #636363;
-}
-
-.team-logo {
-    height: 50px;
 }
 
 .skew {
     -webkit-clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
     clip-path: polygon(0 35%, 100% 0, 100% 100%, 0 100%);
-    padding-top: 200px;
+    padding-top: 140px;
 }
 
 .footer-gradient {
@@ -22,4 +17,48 @@
     background: -o-linear-gradient(bottom right, #FAA658, #ED478E);
     background: -moz-linear-gradient(bottom right, #FAA658, #ED478E);
     background: linear-gradient(to bottom right, #FAA658, #ED478E);
+}
+
+.ft__top h4{
+    font-weight: 300;
+    padding-bottom: 15px;
+    font-size: 17px;
+}
+
+.team-logo {
+    height: 45px;
+}
+
+.ft__bottom {
+    margin-top: 50px;
+    padding: 15px 0 5px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.ft__bottom p {
+    text-align: left;
+    font-weight: 300;
+}
+
+.ft__bottom a, .ft__bottom a:hover  {
+    color: #fff;
+}
+
+.footer_nav  {
+    text-align: right;
+    padding-left: 0;
+}
+
+.footer_nav li {
+     list-style-type: none;
+     display: inline;
+     padding: 0 15px;
+ }
+
+.footer_nav li:last-child {
+    padding-right: 0;
+}
+
+.footer_nav a {
+    font-weight: 300;
 }

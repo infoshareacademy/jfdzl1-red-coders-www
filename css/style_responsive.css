@@ -120,6 +120,10 @@
         padding: 45px 0;
     }
 
+    .sct3 {
+        margin-top: 45px;
+    }
+
     .skew {
         clip-path: none;
         -webkit-clip-path: none;
@@ -180,6 +184,10 @@
         display: none;
     }
 
+    .sct2 {
+        padding: 45px 0;
+    }
+
     .team-logo {
         height: 40px;
     }
@@ -221,6 +229,10 @@
         padding: 5px 0px;
         font-size: 45px;
         line-height: 45px;
+    }
+
+    .sct2 {
+        padding: 45px 0 30px;
     }
 
 }

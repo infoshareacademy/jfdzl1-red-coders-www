@@ -10,14 +10,6 @@
 
 }
 
-@media screen and (max-height: 700px) {
-
-    .header__app {
-        display: none;
-    }
-
-}
-
 @media screen and (max-width : 1366px) {
 
     .main-slogan__background {
@@ -58,7 +50,7 @@
         float: none;
         display: flex;
         justify-content: center;
-        margin-top: 30px;
+        margin-top: 15px;
     }
 
     .main-slogan {
@@ -66,14 +58,18 @@
         transform: scale(0.8, 0.8);
     }
 
+    .header__app {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width : 992px) {
 
     .main-slogan {
-        -webkit-transform: scale(0.7, 0.7);
-        transform: scale(0.7, 0.7);
-        margin-top: -60px;
+        -webkit-transform: scale(0.6, 0.6);
+        transform: scale(0.6, 0.6);
+        margin-top: -90px;
     }
 
     .main-slogan__text1 {
@@ -109,7 +105,7 @@
     }
 
     .main-slogan {
-        margin-top: -125px;
+        margin-top: 0;
         -webkit-transform: scale(0.7, 0.7) rotate(2deg);
         transform: scale(0.7, 0.7) rotate(2deg);
     }
@@ -130,12 +126,33 @@
         margin-top: -60px;
     }
 
-    .row_slogan {
-        display: none;
+    .main-slogan {
+        -webkit-transform: scale(0.6, 0.6);
+        transform: scale(0.6, 0.6);
+    }
+
+    .main-slogan__test1 {
+        padding: 5px 0px;
+    }
+
+    .main-slogan__test2 {
+        padding: 5px 0px;
+    }
+
+    .main-slogan__test3 {
+        padding: 5px 0px;
+        font-size: 45px;
+        line-height: 45px;
     }
 
 }
 
 @media screen and (max-width : 320px) {
+
+    .main-slogan__test3 {
+        padding: 5px 0px;
+        font-size: 40px;
+        line-height: 40px;
+    }
 
 }

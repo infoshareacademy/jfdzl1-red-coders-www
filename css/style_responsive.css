@@ -58,6 +58,11 @@
         width: 600px
     }
 
+    .screens {
+        margin-top: 0;
+        max-width: 100%;
+    }
+
 }
 
 @media screen and (max-width : 1200px) {
@@ -81,6 +86,10 @@
 
     .header__app {
         display: none;
+    }
+
+    .sct2 {
+        margin-top: -140px;
     }
 
     .list_fct {
@@ -115,9 +124,17 @@
     }
 
     .sct2 {
+        margin-top: 0;
         clip-path: none;
         -webkit-clip-path: none;
         padding: 45px 0;
+    }
+
+    .screens {
+        padding-bottom: 60px;
+        max-width: 75%;
+        margin: auto;
+        display: block;
     }
 
     .sct3 {

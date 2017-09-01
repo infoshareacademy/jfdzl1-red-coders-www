@@ -61,8 +61,8 @@
 }
 
 .nav > li > a.nav__link--contact:hover:hover, .nav > li > a.nav__link--contact:hover:focus{
-    border-color: #92b945;
-    background: #92b945;
+    border-color: #e91e63;
+    background: #e91e63;
 }
 
 .navbar-toggle {

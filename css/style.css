@@ -19,4 +19,30 @@ a {
 
 /* Main - Serction - Contact Form */
 
+.sct3 {
+    margin-top: -100px;
+    padding-bottom: 30px;
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(238,238,238,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 );
+}
+
+.contact-form label {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.contact-form input[type="submit"] {
+    text-transform: uppercase;
+    background: #F79462;
+    color: #fff;
+}
+
+.contact-form input[type="submit"]:hover, .contact-form input[type="submit"]:focus, .contact-form input[type="submit"]:active {
+    background: #e91e63;
+    border-color: #e91e63;
+}
+
 /* Footer */

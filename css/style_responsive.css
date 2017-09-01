@@ -83,6 +83,10 @@
         display: none;
     }
 
+    .list_fct {
+        min-height: 180px;
+    }
+
 }
 
 @media screen and (max-width : 992px) {
@@ -108,6 +112,12 @@
 
     .header__app {
         display: none;
+    }
+
+    .sct2 {
+        clip-path: none;
+        -webkit-clip-path: none;
+        padding: 45px 0;
     }
 
     .skew {

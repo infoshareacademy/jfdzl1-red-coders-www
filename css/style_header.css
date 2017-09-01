@@ -107,8 +107,8 @@ a.nav__link:hover {
 
 .main-slogan__background {
     position: absolute;
-    top: 155px;
-    left: 30px;
+    top: 175px;
+    left: 100px;
     content: url('../images/slogan__background.png');
     opacity: 0;
     animation: slogan-background-animation 1.25s ease 1.75s 1 forwards;

@@ -24,7 +24,7 @@ footer {
 }
 
 .ft__top h4{
-    font-weight: 300;
+    font-weight: 400;
     padding-bottom: 15px;
     font-size: 17px;
 }
@@ -41,7 +41,7 @@ footer {
 
 .ft__bottom p {
     text-align: left;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .ft__bottom a, .ft__bottom a:hover  {
@@ -64,5 +64,5 @@ footer {
 }
 
 .footer_nav a {
-    font-weight: 300;
+    font-weight: 400;
 }

@@ -226,6 +226,21 @@
 
 @media screen and (max-width : 600px) {
 
+    .logo__image {
+        padding-top: 15px;
+        -webkit-transform: translate(-30px, 0);
+        transform: translate(-30px, 0);
+    }
+
+    .main-slogan {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+        margin-bottom: 0;
+    }
+
     .navbar-toggle {
         margin-top: -60px;
     }

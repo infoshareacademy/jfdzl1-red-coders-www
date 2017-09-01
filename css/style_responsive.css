@@ -207,6 +207,10 @@
         padding: 45px 0;
     }
 
+    .contact-form {
+        padding: 0 15px;
+    }
+
     .team-logo {
         height: 40px;
     }

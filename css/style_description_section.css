@@ -1,3 +1,4 @@
+
 .sct1 {
     padding-top: 60px;
 }
@@ -53,4 +54,61 @@
 
 .screens {
     margin-top: -45px;
+}
+
+.contact {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.btn__contact {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn__contact a {
+    display: block;
+    width: 60%;
+    margin: auto;
+}
+
+.style {
+    background-color: #F79462;
+}
+
+@media screen and (min-width: 400px) {
+    .btn__contact a {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .bth__contact a {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .btn__contact a {
+        width: 30%;
+    }
+    .contact {
+        letter-spacing: 1px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .btn__contact a {
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .btn__contact a {
+        width: 20%;
+    }
+    .btn__contact {
+        padding-bottom: 0;
+    }
+
 }

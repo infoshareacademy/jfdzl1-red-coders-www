@@ -23,7 +23,7 @@ footer {
     background: linear-gradient(to bottom right, #FAA658, #ED478E);
 }
 
-.ft__top h4{
+.ft__top h4 {
     font-weight: 400;
     padding-bottom: 15px;
     font-size: 17px;
@@ -44,20 +44,20 @@ footer {
     font-weight: 400;
 }
 
-.ft__bottom a, .ft__bottom a:hover  {
+.ft__bottom a, .ft__bottom a:hover {
     color: #fff;
 }
 
-.footer_nav  {
+.footer_nav {
     text-align: left;
     padding-left: 0;
 }
 
 .footer_nav li {
-     list-style-type: none;
-     display: inline;
-     padding: 0 15px;
- }
+    list-style-type: none;
+    display: inline;
+    padding: 0 15px;
+}
 
 .footer_nav li:last-child {
     padding-right: 0;

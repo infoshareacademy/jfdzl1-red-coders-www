@@ -30,7 +30,7 @@
 
 }
 
-@media screen and (max-width : 1366px) {
+@media screen and (max-width: 1366px) {
 
     .main-slogan__background {
         top: 60px;
@@ -65,7 +65,7 @@
 
 }
 
-@media screen and (max-width : 1200px) {
+@media screen and (max-width: 1200px) {
 
     .header {
         height: auto;
@@ -103,7 +103,7 @@
 
 }
 
-@media screen and (max-width : 992px) {
+@media screen and (max-width: 992px) {
 
     .main-slogan__background {
         top: 60px;
@@ -151,7 +151,7 @@
 
 }
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width: 768px) {
 
     .header__background {
         background-position: top left;
@@ -180,7 +180,7 @@
         margin: 5px 0;
     }
 
-    .nav > li > a.nav__link--contact:hover:hover, .nav > li > a.nav__link--contact:hover:focus{
+    .nav > li > a.nav__link--contact:hover:hover, .nav > li > a.nav__link--contact:hover:focus {
         border-color: #fff;
         background: transparent;
     }
@@ -224,13 +224,13 @@
         padding-bottom: 15px;
     }
 
-    .footer_nav  {
+    .footer_nav {
         text-align: center;
     }
 
 }
 
-@media screen and (max-width : 600px) {
+@media screen and (max-width: 600px) {
 
     .logo__image {
         padding-top: 15px;
@@ -279,7 +279,7 @@
 
 }
 
-@media screen and (max-width : 480px) {
+@media screen and (max-width: 480px) {
 
     .navbar-toggle {
         margin-top: -60px;
@@ -311,14 +311,12 @@
 
 }
 
-@media screen and (max-width : 320px) {
+@media screen and (max-width: 320px) {
 
     .main-slogan__test3 {
         padding: 5px 0px;
         font-size: 40px;
         line-height: 40px;
     }
-
-
 
 }

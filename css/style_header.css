@@ -60,7 +60,7 @@
     background: none;
 }
 
-.nav > li > a.nav__link--contact:hover:hover, .nav > li > a.nav__link--contact:hover:focus{
+.nav > li > a.nav__link--contact:hover:hover, .nav > li > a.nav__link--contact:hover:focus {
     border-color: #e91e63;
     background: #e91e63;
 }
@@ -155,20 +155,20 @@ a.nav__link:hover {
 @keyframes slogan-animation1 {
     0% {
         opacity: 0;
-        transform:translateX(-100px) rotate(-2deg);
-        -webkit-transform:translateX(-100px) rotate(-2deg);
+        transform: translateX(-100px) rotate(-2deg);
+        -webkit-transform: translateX(-100px) rotate(-2deg);
     }
 
     25% {
         opacity: 1;
-        transform:translateX(0) rotate(-2deg);
-        -webkit-transform:translateX(0) rotate(-2deg);
+        transform: translateX(0) rotate(-2deg);
+        -webkit-transform: translateX(0) rotate(-2deg);
     }
 
     100% {
         opacity: 1;
-        transform:translateX(0px) rotate(-2deg);
-        -webkit-transform:translateX(0px) rotate(-2deg);
+        transform: translateX(0px) rotate(-2deg);
+        -webkit-transform: translateX(0px) rotate(-2deg);
     }
 }
 
@@ -189,25 +189,25 @@ a.nav__link:hover {
 @keyframes slogan-animation2 {
     0% {
         opacity: 0;
-        transform:translateX(100px) rotate(-2deg);
-        -webkit-transform:translateX(100px) rotate(-2deg);
+        transform: translateX(100px) rotate(-2deg);
+        -webkit-transform: translateX(100px) rotate(-2deg);
     }
 
     25% {
         opacity: 1;
-        transform:translateX(0) rotate(-2deg);
-        -webkit-transform:translateX(0) rotate(-2deg);
+        transform: translateX(0) rotate(-2deg);
+        -webkit-transform: translateX(0) rotate(-2deg);
     }
 
     100% {
         opacity: 1;
-        transform:translateX(0px) rotate(-2deg);
-        -webkit-transform:translateX(0px) rotate(-2deg);
+        transform: translateX(0px) rotate(-2deg);
+        -webkit-transform: translateX(0px) rotate(-2deg);
     }
 }
 
 .main-slogan__text3 {
-    position:relative;
+    position: relative;
     padding: 2px 30px;
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
@@ -312,15 +312,15 @@ a.nav__link:hover {
     bottom: 0;
     left: calc(50% - 450px);
     opacity: 0;
-    animation: app-animation 1s cubic-bezier(.24,.78,.31,.84) 2.5s 1 forwards;
-    -webkit-animation: app-animation 1s cubic-bezier(.24,.78,.31,.84) 2.5s 1 forwards;
+    animation: app-animation 1s cubic-bezier(.24, .78, .31, .84) 2.5s 1 forwards;
+    -webkit-animation: app-animation 1s cubic-bezier(.24, .78, .31, .84) 2.5s 1 forwards;
 }
 
 @keyframes app-animation {
     0% {
         opacity: 0;
-        transform:translateY(390px);
-        -webkit-transform:translateY(390px);
+        transform: translateY(390px);
+        -webkit-transform: translateY(390px);
     }
 
     25% {
@@ -329,8 +329,8 @@ a.nav__link:hover {
 
     100% {
         opacity: 1;
-        transform:translateY(0);
-        -webkit-transform:translateY(0);
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
     }
 }
 

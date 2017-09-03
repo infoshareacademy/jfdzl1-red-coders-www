@@ -4,8 +4,7 @@
 }
 
 .head--wisely {
-    color: #e91e63;
-;
+    color: #e91e63;;
 }
 
 .sct1__short-dscr--head {
@@ -38,7 +37,7 @@
     font-weight: 300;
 }
 
-.sct1__short-dscr--list .glyphicon{
+.sct1__short-dscr--list .glyphicon {
     display: inline;
     padding-right: 15px;
     float: left;
@@ -100,6 +99,7 @@
     .btn__contact a {
         width: 30%;
     }
+
     .contact {
         letter-spacing: 1px;
     }
@@ -115,6 +115,7 @@
     .btn__contact a {
         width: 20%;
     }
+
     .btn__contact {
         padding-bottom: 0;
     }

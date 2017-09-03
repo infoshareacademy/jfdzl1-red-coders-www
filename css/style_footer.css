@@ -10,7 +10,7 @@ footer {
 }
 
 .skew {
-    -webkit-clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 35%, 100% 0, 100% 100%, 0 100%);
     clip-path: polygon(0 35%, 100% 0, 100% 100%, 0 100%);
     padding-top: 140px;
 }

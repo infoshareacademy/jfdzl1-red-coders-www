@@ -306,6 +306,7 @@
 
     .footer_nav li:last-child {
         margin-bottom: 20px;
+        padding-right: 15px;
     }
 
 }

@@ -40,7 +40,7 @@ footer {
 }
 
 .ft__bottom p {
-    text-align: left;
+    text-align: right;
     font-weight: 400;
 }
 
@@ -49,7 +49,7 @@ footer {
 }
 
 .footer_nav  {
-    text-align: right;
+    text-align: left;
     padding-left: 0;
 }
 

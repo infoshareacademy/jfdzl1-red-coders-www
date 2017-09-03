@@ -299,6 +299,15 @@
         font-size: 55px
     }
 
+    .footer_nav li {
+        display: block;
+        padding: 10px 15px;
+    }
+
+    .footer_nav li:last-child {
+        margin-bottom: 20px;
+    }
+
 }
 
 @media screen and (max-width : 320px) {

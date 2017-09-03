@@ -4,6 +4,7 @@ body {
     line-height: 16px;
     font-weight: 400;
     color: #222;
+    cursor: default;
 }
 
 a {

@@ -1,6 +1,6 @@
 C = {
     // Number of days before the cookie expires, and the banner reappears
-    cookieDuration : 1,
+    cookieDuration : 14,
 
     // Name of our cookie
     cookieName: 'complianceCookie',
@@ -24,14 +24,14 @@ C = {
     bannerLinkText: "Read more",
 
     // Text alignment
-    alertAlign: "left",
+    alertAlign: "center",
 
     // Link text
-    buttonClass: "btn-success btn-xs",
+    buttonClass: "btn btn--white btn--rounded",
 
     createDiv: function () {
         var banner = $(
-            '<div class="alert alert-success alert-dismissible text-'+
+            '<div class="cookie-div alert alert-dismissible text-'+
             this.alertAlign +' fade in" ' +
             'role="alert" style="position: fixed; bottom: 0; width: 100%; ' +
             'margin-bottom: 0"><strong>' + this.bannerTitle + '</strong> ' +
@@ -41,6 +41,8 @@ C = {
             ', C.cookieDuration)" data-dismiss="alert" aria-label="Close">' +
             this.bannerButton + '</button></div>'
         )
+        var toTop  = document.getElementById('back_to_top');
+        toTop.style.bottom = '80px';
         $("body").append(banner)
     },
 
@@ -53,6 +55,8 @@ C = {
             expires = "; expires=" + date.toGMTString()
         }
         document.cookie = name + "=" + value + expires + "; path=/";
+        var toTop  = document.getElementById('back_to_top');
+        toTop.style.bottom = '30px';
     },
 
     checkCookie: function(name) {

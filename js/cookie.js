@@ -33,7 +33,7 @@ C = {
         var banner = $(
             '<div class="cookie-div alert alert-dismissible text-'+
             this.alertAlign +' fade in" ' +
-            'role="alert" style="position: fixed; bottom: 0; width: 100%; ' +
+            'role="alert" style="position: fixed; bottom: 0; width: 30%; ' +
             'margin-bottom: 0"><strong>' + this.bannerTitle + '</strong> ' +
             this.bannerMessage + ' <a href="' + this.bannerLinkURL + '">' +
             this.bannerLinkText + '</a> <button type="button" class="btn ' +
@@ -41,8 +41,6 @@ C = {
             ', C.cookieDuration)" data-dismiss="alert" aria-label="Close">' +
             this.bannerButton + '</button></div>'
         )
-        var toTop  = document.getElementById('back_to_top');
-        toTop.style.bottom = '80px';
         $("body").append(banner)
     },
 
@@ -55,8 +53,7 @@ C = {
             expires = "; expires=" + date.toGMTString()
         }
         document.cookie = name + "=" + value + expires + "; path=/";
-        var toTop  = document.getElementById('back_to_top');
-        toTop.style.bottom = '30px';
+
     },
 
     checkCookie: function(name) {

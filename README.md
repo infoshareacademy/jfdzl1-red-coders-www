@@ -8,7 +8,7 @@ It is developed to prompt interesting cultural events taking place in Lublin, ci
 performences ...
 
 ## Info
-* Development branch: `development`
+* Development branch: `develop`
 * Production branch: `master`
 
 ## Demo

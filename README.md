@@ -15,3 +15,5 @@ performences ...
 Built from develop: [click here](http://red-coders.jfdzl1.is-academy.pl)
 
 See also our game: [click here](http://red-coders.jfdzl1.is-academy.pl/game/), [repo](https://github.com/infoshareacademy/jfdzl1-red-coders-game)
+
+Another JFDZL1 projects: https://github.com/infoshareacademy/jfdzl1-projects

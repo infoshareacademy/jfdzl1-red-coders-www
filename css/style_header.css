@@ -35,8 +35,8 @@
     background: transparent;
     z-index: 9999999;
     width: 100%;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     -webkit-transition: all 0.6s ease;
     -moz-transition: all 0.6s ease;
     -ms-transition: all 0.6s ease;
@@ -44,14 +44,41 @@
     transition: all 0.6s ease;
 }
 
-.logo__image {
+.logo {
     position: relative;
+}
+
+.logo__image {
+    position: absolute;
     display: block;
     width: 50%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    -o-transition: all 0.65s ease;
+    transition: all 0.6s ease;
+}
+
+.logo__image--fixed {
+    opacity: 0;
+}
+
+.header__top--fixed .logo__image--normal {
+    opacity: 0;
+}
+
+.header__top--fixed .logo__image--fixed {
+    opacity: 1;
 }
 
 .menu__item {
     display: flex;
+}
+
+.navbar {
+    margin-top: 10px;
 }
 
 .navbar-nav {
@@ -354,11 +381,37 @@ a.nav__link:hover {
     vertical-align: bottom;
 }
 
+/* Fixed Top Navigation */
+
 .header__top--fixed {
-    background: #000;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #fff;
+    -webkit-box-shadow: 0 0 15px 5px rgba(50,50,50,0.3);
+    box-shadow: 0 0 15px 5px rgba(50,50,50,0.3);
     -webkit-transition: all 0.6s ease;
     -moz-transition: all 0.6s ease;
     -ms-transition: all 0.6s ease;
     -o-transition: all 0.6s ease;
     transition: all 0.6s ease;
+}
+
+.header__top--fixed .logo__image{
+    width: 40%;
+}
+
+.header__top--fixed .navbar {
+    margin-bottom: 10px;
+}
+
+.header__top--fixed a.nav__link {
+    color: #222;
+}
+
+.header__top--fixed a.nav__link:hover {
+    border-color: #222;
+}
+
+.header__top--fixed a.nav__link--contact:hover {
+    color: #fff;
 }

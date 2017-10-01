@@ -14,3 +14,7 @@
 .row-centered {
     text-align: center;
 }
+
+.icon {
+    max-height: 25px;
+}

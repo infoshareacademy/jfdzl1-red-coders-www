@@ -31,7 +31,17 @@
 }
 
 .header__top {
+    position: fixed;
+    background: transparent;
+    z-index: 9999999;
+    width: 100%;
     padding-top: 15px;
+    padding-bottom: 15px;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    -o-transition: all 0.65s ease;
+    transition: all 0.6s ease;
 }
 
 .logo__image {
@@ -100,6 +110,7 @@ a.nav__link:hover {
 }
 
 .main-slogan {
+    padding-top: 100px;
     position: relative;
     -webkit-transform: scale(1.05, 1.05);
     transform: scale(1.05, 1.05);
@@ -341,4 +352,13 @@ a.nav__link:hover {
 .app__image {
     width: 900px;
     vertical-align: bottom;
+}
+
+.header__top--fixed {
+    background: #000;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
 }

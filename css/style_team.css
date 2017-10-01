@@ -1,0 +1,16 @@
+#team-info {
+    height: 100%;
+}
+
+.thumbnail {
+    vertical-align: center;
+}
+
+.col-centered {
+    display: inline-block;
+    float: none;
+}
+
+.row-centered {
+    text-align: center;
+}

@@ -342,3 +342,10 @@ a.nav__link:hover {
     width: 900px;
     vertical-align: bottom;
 }
+
+.header_fixed {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    background-color: white;
+}

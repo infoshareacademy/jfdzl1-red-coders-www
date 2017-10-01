@@ -7,7 +7,6 @@
     .main-slogan__text1 {
         margin: 40px 0 0 0;
     }
-
 }
 
 @media screen and (max-height: 700px) {
@@ -27,7 +26,6 @@
     .app__image {
         width: 600px
     }
-
 }
 
 @media screen and (max-width: 1366px) {
@@ -147,6 +145,10 @@
         clip-path: none;
         -webkit-clip-path: none;
         padding-top: 45px;
+    }
+
+    #team-info {
+        padding-top: 30px;
     }
 
 }
@@ -318,5 +320,4 @@
         font-size: 40px;
         line-height: 40px;
     }
-
 }

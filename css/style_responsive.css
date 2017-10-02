@@ -99,6 +99,9 @@
         min-height: 180px;
     }
 
+    .photo {
+        max-height: 150px;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -150,7 +153,6 @@
     #team-info {
         padding-top: 30px;
     }
-
 }
 
 @media screen and (max-width: 768px) {
@@ -228,6 +230,10 @@
 
     .footer_nav {
         text-align: center;
+    }
+
+    .col-team-info {
+        float: left !important;
     }
 
 }

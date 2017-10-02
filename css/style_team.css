@@ -1,20 +1,30 @@
 #team-info {
-    height: 100%;
+    height: auto;
 }
 
-.thumbnail {
-    vertical-align: center;
+.row-team-info {
+    text-align: center;
 }
 
-.col-centered {
+.col-team-info {
     display: inline-block;
     float: none;
 }
 
-.row-centered {
-    text-align: center;
+.icon {
+    max-height: 20px;
 }
 
-.icon {
-    max-height: 25px;
+.thumbnail {
+    width: 100%;
+    overflow: hidden;
+}
+
+.photo {
+    height: auto;
+    display: block;
+}
+
+.name {
+    min-height: 50px;
 }

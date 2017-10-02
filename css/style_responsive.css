@@ -72,21 +72,28 @@
     }
 
     .logo__image {
-        max-width: 300px;
+        max-width: 250px;
         margin: auto;
+    }
+
+    .navbar {
+        float: right;
     }
 
     .navbar-nav {
         float: none;
         display: flex;
         justify-content: center;
-        margin-top: 15px;
     }
 
     .main-slogan {
         -webkit-transform: scale(0.8, 0.8);
         transform: scale(0.8, 0.8);
-        padding-bottom: 100px;
+        padding-bottom: 45px;
+    }
+
+    .main-slogan__background {
+        top: 90px;
     }
 
     .header__app {
@@ -105,20 +112,49 @@
 
 @media screen and (max-width: 992px) {
 
-    .main-slogan__background {
-        top: 60px;
-        left: -20px;
+    .header__top {
+        padding-top: 10px;
+    }
+
+    .logo__image {
+        max-width: 250px;
+        position: relative;
+    }
+
+    .navbar {
+        float: none;
+    }
+
+    .navbar-nav {
+        margin-top: 5px;
     }
 
     .main-slogan {
-        -webkit-transform: scale(0.6, 0.6);
-        transform: scale(0.6, 0.6);
-        margin-top: -90px;
-        padding-bottom: 0;
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+        padding-top: 200px;
+        padding-bottom: 45px;
+        -webkit-transform: rotate(2deg);
+        transform: rotate(2deg);
+    }
+
+    .main-slogan__background {
+        top: 170px;
+        left: -30px;
     }
 
     .main-slogan__text1 {
         margin: 0;
+        font-size: 21px;
+    }
+
+    .main-slogan__text2 {
+        font-size: 24px;
+    }
+
+    .main-slogan__text3 {
+        font-size: 55px;
+        line-height: 60px;
     }
 
     .header__app {
@@ -153,11 +189,18 @@
 
 @media screen and (max-width: 768px) {
 
+    .header {
+        background-size: contain;
+    }
+
     .header__background {
         background-position: top left;
-        background-size: auto;
         animation: none;
         -webkit-animation: none;
+    }
+
+    .navbar {
+        margin-bottom: 0;
     }
 
     .navbar-toggle {
@@ -171,9 +214,6 @@
     .navbar-nav {
         display: block;
         margin-top: 5px;
-        background: rgba(255, 255, 255, 0.1);
-        -webkit-border-radius: 5px 5px 5px 5px;
-        border-radius: 5px 5px 5px 5px;
     }
 
     .navbar-nav li {
@@ -187,12 +227,6 @@
 
     .btn.nav__link--contact {
         border-color: transparent;
-    }
-
-    .main-slogan {
-        margin-top: -80px;
-        -webkit-transform: scale(0.7, 0.7) rotate(2deg);
-        transform: scale(0.7, 0.7) rotate(2deg);
     }
 
     .main-slogan__background {
@@ -230,16 +264,45 @@
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
 
-    .logo__image {
-        padding-top: 15px;
-        -webkit-transform: translate(-30px, 0);
-        transform: translate(-30px, 0);
+    .navbar {
+        min-height: 0;
+    }
+
+    .header__top--fixed .navbar-toggle {
+        margin-top: -11%;
+    }
+
+    .header__top--fixed .navbar{
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+
+    .navbar-collapse {
+        margin-bottom: 0px;
+    }
+
+    .navbar-nav > li:last-child {
+        padding-right: 15px;
+    }
+
+    .nav > li > a.nav__link--contact:hover:hover, .nav > li > a.nav__link--contact:hover:focus{
+        border-color: #222;
+        color: #222;
     }
 
     .main-slogan {
-        display: none;
+        padding-top: 120px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .logo__image {
+        -webkit-transform: translate(-30px, 0);
+        transform: translate(-30px, 0);
     }
 
     .navbar {
@@ -248,23 +311,19 @@
     }
 
     .navbar-toggle {
-        margin-top: -60px;
+        margin-top: -75px;
     }
 
-    .main-slogan {
-        margin-top: -110px;
-    }
-
-    .main-slogan__test1 {
+    .main-slogan__text1 {
         padding: 5px 0px;
+        font-size: 20px;
     }
 
-    .main-slogan__test2 {
-        padding: 5px 0px;
+    .main-slogan__text2 {
+        font-size: 18px;
     }
 
-    .main-slogan__test3 {
-        padding: 5px 0px;
+    .main-slogan__text3 {
         font-size: 45px;
         line-height: 45px;
     }
@@ -282,21 +341,16 @@
 @media screen and (max-width: 480px) {
 
     .navbar-toggle {
-        margin-top: -60px;
+        margin-top: -70px;
     }
 
-    .navbar-collapse {
-        margin-bottom: 50px;
-    }
-
-    .main-slogan {
-        margin-top: -180px;
-        -webkit-transform: scale(0.6, 0.6);
-        transform: scale(0.6, 0.6);
+    .header__top--fixed .navbar-toggle {
+        margin-top: -13%;
     }
 
     .main-slogan__text3 {
-        font-size: 55px
+        font-size: 34px;
+        line-height: 36px;
     }
 
     .footer_nav li {
@@ -312,6 +366,14 @@
 }
 
 @media screen and (max-width: 320px) {
+
+    .navbar-toggle {
+        margin-top: -50px;
+    }
+
+    .header__top--fixed .navbar-toggle {
+        margin-top: -15%;
+    }
 
     .main-slogan__test3 {
         padding: 5px 0px;

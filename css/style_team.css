@@ -28,3 +28,7 @@
 .name {
     min-height: 50px;
 }
+
+.col-half-offset {
+    margin-left: 3.5%
+}

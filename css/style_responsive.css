@@ -109,6 +109,10 @@
     .photo {
         max-height: 150px;
     }
+
+    .col-half-offset {
+        margin-left: 0px !important;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -282,7 +286,7 @@
         margin-top: -11%;
     }
 
-    .header__top--fixed .navbar{
+    .header__top--fixed .navbar {
         margin-top: 5px;
         margin-bottom: 0;
     }
@@ -295,7 +299,7 @@
         padding-right: 15px;
     }
 
-    .nav > li > a.nav__link--contact:hover:hover, .nav > li > a.nav__link--contact:hover:focus{
+    .nav > li > a.nav__link--contact:hover:hover, .nav > li > a.nav__link--contact:hover:focus {
         border-color: #222;
         color: #222;
     }

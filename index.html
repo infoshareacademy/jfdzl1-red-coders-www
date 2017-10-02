@@ -28,59 +28,52 @@
 </head>
 <body>
 <script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
     ga('create', 'UA-106136574-1', 'auto');
     ga('send', 'pageview');
 
 </script>
-<a id="back_to_top" href="#">
+<a id="back_to_top" class="internal" href="#top">
     <img src="./images/back_to_top.png">
 </a>
-<header class="header">
+<header id="top" class="header">
     <div class="header__background"></div>
+    <div class="header__top">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 header__top--left_col">
+                    <div class="logo">
+                        <img class="logo__image logo__image--normal" src="./images/logo_yawn_killer_color.png">
+                        <img class="logo__image logo__image--fixed" src="./images/logo_yawn_killer_fixed.png">
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 header__top--right_col">
+                    <nav class="navbar">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#yk-navbar-collapse" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="yk-navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li><a class="btn nav__link btn--rounded internal" href="#sct1">About app</a></li>
+                                <li><a class="btn nav__link btn--rounded internal" href="#sct2">Main features</a></li>
+                                <li><a class="btn btn--white btn--rounded nav__link nav__link--contact internal" href="#sct3">Stay connected</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container">
-        <div class="row header__top">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                <img class="logo__image" src="./images/logo_yawn_killer_color.png">
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                <nav class="navbar">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                                data-target="#yk-navbar-collapse" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
-                    <div class="collapse navbar-collapse" id="yk-navbar-collapse">
-                        <ul class="nav navbar-nav">
-                            <li><a class="btn nav__link btn--rounded" href="#sct1">About app</a></li>
-                            <li><a class="btn nav__link btn--rounded" href="#sct2">Main features</a></li>
-                            <li><a class="btn btn--white btn--rounded nav__link nav__link--contact" href="#sct3">Stay
-                                connected</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
-        <div class="row header__top">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-
-            </div>
-        </div>
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 main-slogan">
                 <div class="main-slogan__background"></div>
@@ -103,11 +96,11 @@
     </div>
 </header>
 <main>
-    <section id="sct1" class="sct1">
+    <section class="sct1">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h4 class="heading">About app</h4>
+                    <h4 id="sct1" class="heading">About app</h4>
                 </div>
             </div>
             <div class="row">
@@ -139,17 +132,17 @@
                 </div>
                 <div class="col-xs-12">
                     <div class="btn__contact">
-                        <a class="btn" href="#sct3">Leave your email</a>
+                        <a class="btn internal" href="#sct3">Leave your email</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="sct2" class="sct2">
+    <section class="sct2">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h4 class="heading heading--white">Main Features</h4>
+                    <h4 id="sct2" class="heading heading--white">Main Features</h4>
                 </div>
             </div>
             <div class="row">
@@ -258,17 +251,17 @@
             </div>
         </div>
     </section>
-
-    <section id="sct3" class="sct3">
+    <section class="sct3">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h4 class="heading">Stay connected</h4>
+                    <h4 id="sct3" class="heading">Stay connected</h4>
                 </div>
             </div>
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <form method="POST" action="https://formspree.io/yawnkiller.contact@gmail.com"
+                    <form method="POST"
+                          action="https://formspree.io/yawnkiller.contact@gmail.com"
                           class="row contact-form">
                         <fieldset>
                             <legend class="l">Leave your e-mail address if you wish to receive information
@@ -314,15 +307,13 @@
             <div class="row ft__bottom">
                 <div class="col-xs-12 col-sm-8 col-md-6 col-lg-6">
                     <ul class="footer_nav">
-                        <li><a href="#sct1">About app</a></li>
-                        <li><a href="#sct2">Main features</a></li>
-                        <li><a href="#sct3">Stay connected</a></li>
+                        <li><a class="internal" href="#sct1">About app</a></li>
+                        <li><a class="internal" href="#sct2">Main features</a></li>
+                        <li><a class="internal" href="#sct3">Stay connected</a></li>
                     </ul>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6">
-                    <p class="copyright">Created by &copy; <a
-                            href="http://www.redcoders.pl" target="_blank">Red Coders</a>
-                        2017</p>
+                    <p class="copyright">Created by &copy; <a href="http://www.redcoders.pl" target="_blank">Red Coders</a> 2017</p>
                 </div>
             </div>
         </div>
@@ -331,5 +322,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="./js/bootstrap.js"></script>
 <script src="./js/cookie.js"></script>
+<script src="./js/script.js"></script>
+<script src="./js/animations.js"></script>
 </body>
 </html>

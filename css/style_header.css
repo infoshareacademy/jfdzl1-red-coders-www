@@ -31,17 +31,53 @@
 }
 
 .header__top {
-    padding-top: 15px;
+    position: fixed;
+    background: transparent;
+    z-index: 9999999;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    -o-transition: all 0.65s ease;
+    transition: all 0.6s ease;
+}
+
+.header__top--dark_background {
+    background: #352435;
+    -webkit-box-shadow: 0 0 15px 5px rgba(50,50,50,0.3);
+    box-shadow: 0 0 15px 5px rgba(50,50,50,0.3);
+}
+
+.logo {
+    position: relative;
 }
 
 .logo__image {
-    position: relative;
+    position: absolute;
     display: block;
     width: 50%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    -o-transition: all 0.65s ease;
+    transition: all 0.6s ease;
+}
+
+.logo__image--fixed {
+    opacity: 0;
+    display: none;
 }
 
 .menu__item {
     display: flex;
+}
+
+.navbar {
+    margin-top: 10px;
 }
 
 .navbar-nav {
@@ -100,6 +136,7 @@ a.nav__link:hover {
 }
 
 .main-slogan {
+    padding-top: 100px;
     position: relative;
     -webkit-transform: scale(1.05, 1.05);
     transform: scale(1.05, 1.05);
@@ -341,4 +378,49 @@ a.nav__link:hover {
 .app__image {
     width: 900px;
     vertical-align: bottom;
+}
+
+/* Fixed Top Navigation */
+
+.header__top--fixed {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #fff;
+    -webkit-box-shadow: 0 0 15px 5px rgba(50,50,50,0.3);
+    box-shadow: 0 0 15px 5px rgba(50,50,50,0.3);
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+
+.header__top--fixed .logo__image{
+    width: 40%;
+}
+
+.header__top--fixed .logo__image--normal {
+    opacity: 0;
+    display: none;
+}
+
+.header__top--fixed .logo__image--fixed {
+    opacity: 1;
+    display: block;
+}
+
+.header__top--fixed .navbar {
+    margin-bottom: 10px;
+}
+
+.header__top--fixed a.nav__link {
+    color: #222;
+}
+
+.header__top--fixed a.nav__link:hover {
+    border-color: #222;
+}
+
+.header__top--fixed a.nav__link--contact:hover {
+    color: #fff;
 }

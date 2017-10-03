@@ -193,6 +193,15 @@
     #team-info {
         padding-top: 30px;
     }
+
+    .footer_nav {
+        text-align: center;
+    }
+
+    .ft__bottom p {
+        text-align: center;
+        padding-bottom: 15px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -259,15 +268,6 @@
 
     .ft__bottom {
         margin-top: 30px;
-    }
-
-    .ft__bottom p {
-        text-align: center;
-        padding-bottom: 15px;
-    }
-
-    .footer_nav {
-        text-align: center;
     }
 
     .col-team-info {
@@ -348,6 +348,16 @@
         display: none;
     }
 
+    .footer_nav li {
+        display: block;
+        padding: 10px 15px;
+    }
+
+    .footer_nav li:last-child {
+        margin-bottom: 20px;
+        padding-right: 15px;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -363,16 +373,6 @@
     .main-slogan__text3 {
         font-size: 34px;
         line-height: 36px;
-    }
-
-    .footer_nav li {
-        display: block;
-        padding: 10px 15px;
-    }
-
-    .footer_nav li:last-child {
-        margin-bottom: 20px;
-        padding-right: 15px;
     }
 
 }

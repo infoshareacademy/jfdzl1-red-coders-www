@@ -63,6 +63,11 @@
         max-width: 100%;
     }
 
+    #team-info {
+        margin-top: -100px;
+        margin-bottom: 60px;
+    }
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -109,7 +114,7 @@
 
     .caption h3 {
         font-size: 20px;
-        letter-spacing: normal;
+        letter-spacing: 1px;
     }
 
 }

@@ -41,3 +41,12 @@
 75%  {transform: rotateY(270deg);}
 100% {transform: rotateY(360deg);}
 }
+
+.linkedin {
+    display: flex;
+    justify-content: center;
+}
+
+.in {
+    border: 1px solid black;
+}

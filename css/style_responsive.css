@@ -101,6 +101,17 @@
         min-height: 180px;
     }
 
+
+    #team-info {
+        margin-top: -100px;
+        margin-bottom: 60px;
+    }
+
+    .caption h3 {
+        font-size: 20px;
+        letter-spacing: normal;
+    }
+
 }
 
 @media screen and (max-width: 992px) {
@@ -149,6 +160,18 @@
         padding-top: 45px;
     }
 
+    #team-info {
+        margin-top: 60px;
+    }
+
+    .rcmfoto {
+        width: 150px;
+        height: auto;
+    }
+
+    .caption h3 {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 768px) {

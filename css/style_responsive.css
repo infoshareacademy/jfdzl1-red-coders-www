@@ -67,7 +67,6 @@
         margin-top: -100px;
         margin-bottom: 60px;
     }
-
 }
 
 @media screen and (max-width: 1200px) {
@@ -284,15 +283,15 @@
     }
 
     .main-slogan__test1 {
-        padding: 5px 0px;
+        padding: 5px 0;
     }
 
     .main-slogan__test2 {
-        padding: 5px 0px;
+        padding: 5px 0;
     }
 
     .main-slogan__test3 {
-        padding: 5px 0px;
+        padding: 5px 0;
         font-size: 45px;
         line-height: 45px;
     }
@@ -342,9 +341,23 @@
 @media screen and (max-width: 320px) {
 
     .main-slogan__test3 {
-        padding: 5px 0px;
+        padding: 5px 0;
         font-size: 40px;
         line-height: 40px;
     }
 
+}
+
+
+@media screen and (min-width: 1200px) {
+    .caption p {
+        font-size: 110%;
+        letter-spacing: 2px;
+    }
+}
+
+@media screen and (min-width: 1367px) {
+    #sct3 {
+        margin-top: 60px;
+    }
 }

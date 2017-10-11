@@ -1,5 +1,5 @@
 * {
-    /*border: 1px solid red;*/
+    border: 1px solid red;
 }
 
 #team-info {
@@ -50,3 +50,8 @@
 .in {
     border: 1px solid black;
 }
+
+/*.row-centered .col-xs-12 {
+    padding-left: 0;
+    padding-right: 0;
+}*/

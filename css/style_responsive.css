@@ -7,7 +7,6 @@
     .main-slogan__text1 {
         margin: 40px 0 0 0;
     }
-
 }
 
 @media screen and (max-height: 700px) {
@@ -27,7 +26,6 @@
     .app__image {
         width: 600px
     }
-
 }
 
 @media screen and (max-width: 1366px) {
@@ -108,6 +106,13 @@
         min-height: 180px;
     }
 
+    .photo {
+        max-height: 150px;
+    }
+
+    .col-half-offset {
+        margin-left: 0px !important;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -185,6 +190,18 @@
         padding-top: 45px;
     }
 
+    #team-info {
+        padding-top: 30px;
+    }
+
+    .footer_nav {
+        text-align: center;
+    }
+
+    .ft__bottom p {
+        text-align: center;
+        padding-bottom: 15px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -253,13 +270,8 @@
         margin-top: 30px;
     }
 
-    .ft__bottom p {
-        text-align: center;
-        padding-bottom: 15px;
-    }
-
-    .footer_nav {
-        text-align: center;
+    .col-team-info {
+        float: left !important;
     }
 
 }
@@ -274,7 +286,7 @@
         margin-top: -11%;
     }
 
-    .header__top--fixed .navbar{
+    .header__top--fixed .navbar {
         margin-top: 5px;
         margin-bottom: 0;
     }
@@ -287,6 +299,10 @@
         padding-right: 15px;
     }
 
+    .nav > li > a.nav__link--contact:hover:hover, .nav > li > a.nav__link--contact:hover:focus {
+        border-color: #222;
+        color: #222;
+      
     .nav > li > a.nav__link--contact:hover:hover, .nav > li > a.nav__link--contact:hover:focus{
         border-color: #fff;
         color: #fff;
@@ -350,6 +366,16 @@
         display: none;
     }
 
+    .footer_nav li {
+        display: block;
+        padding: 10px 15px;
+    }
+
+    .footer_nav li:last-child {
+        margin-bottom: 20px;
+        padding-right: 15px;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -365,16 +391,6 @@
     .main-slogan__text3 {
         font-size: 34px;
         line-height: 36px;
-    }
-
-    .footer_nav li {
-        display: block;
-        padding: 10px 15px;
-    }
-
-    .footer_nav li:last-child {
-        margin-bottom: 20px;
-        padding-right: 15px;
     }
 
 }
@@ -394,5 +410,4 @@
         font-size: 40px;
         line-height: 40px;
     }
-
 }

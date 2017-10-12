@@ -302,6 +302,24 @@
     .nav > li > a.nav__link--contact:hover:hover, .nav > li > a.nav__link--contact:hover:focus {
         border-color: #222;
         color: #222;
+      
+    .nav > li > a.nav__link--contact:hover:hover, .nav > li > a.nav__link--contact:hover:focus{
+        border-color: #fff;
+        color: #fff;
+    }
+
+    .header__top--fixed .nav > li > a.nav__link--contact:hover:hover, .header__top--fixed .nav > li > a.nav__link--contact:hover:focus {
+        border-color: #e8a50c;
+        background: #e8a50c;
+        color: #fff;
+    }
+
+    .header__top--fixed .btn.nav__link--contact {
+        border-color: #fff;
+    }
+
+    .navbar-nav > li.active {
+        background: none;
     }
 
     .main-slogan {

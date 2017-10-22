@@ -1,0 +1,34 @@
+#team-info {
+    height: auto;
+}
+
+.row-team-info {
+    text-align: center;
+}
+
+.col-team-info {
+    display: inline-block;
+    float: none;
+}
+
+.icon {
+    max-height: 20px;
+}
+
+.thumbnail {
+    width: 100%;
+    overflow: hidden;
+}
+
+.photo {
+    height: auto;
+    display: block;
+}
+
+.name {
+    min-height: 50px;
+}
+
+.col-half-offset {
+    margin-left: 3.5%
+}

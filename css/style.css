@@ -85,3 +85,9 @@ a {
 
     text-decoration: none;
 }
+
+/* For animate  */
+.tablet_img_temp {
+    left:1500px;
+
+}

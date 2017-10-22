@@ -4,26 +4,25 @@ $(document).ready(function () {
         $('html, body').animate({
             scrollTop: $($.attr(this, 'href')).offset().top - 100
         }, 800);
+        $('.tablet_img').click(function (){
+            $(this).addClass('.tablet_img_temp')
+        });
     });
     window.sr = ScrollReveal();
     sr.reveal('.first_icon', {
         reset: true,
         delay: 150,
-        distance: 0
     });
-        sr.reveal('.second_icon', {
+    sr.reveal('.second_icon', {
         reset: true,
         delay: 250,
-        distance: 0
     });
     sr.reveal('.third_icon', {
         reset: true,
         delay: 350,
-        distance: 0
     });
     sr.reveal('.fourth_icon', {
         reset: true,
         delay: 450,
-        distance: 0
     });
 });

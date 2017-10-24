@@ -15,3 +15,11 @@ $(window).scroll(function() {
 $(".navbar-toggle").click(function(){
     $(".header__top").toggleClass("header__top--dark_background");
 });
+
+//
+$(function(){
+    $('.shortinfo').slideUp(0);
+    $('#hk').mouseover(function(){
+        $('#hkshortinfo').slideDown(1000);
+    });
+});

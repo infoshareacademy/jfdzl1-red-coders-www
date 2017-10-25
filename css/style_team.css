@@ -12,17 +12,14 @@
 }
 
 .icon {
-    max-height: 20px;
+    max-height: 15px;
 }
 
 .thumbnail {
     width: 100%;
     overflow: hidden;
     border: none;
-}
-
-.shortinfo {
-    letter-spacing: 1px;
+    height: 320px;
 }
 
 .photo {
@@ -45,15 +42,10 @@
     100% {transform: rotateY(360deg);}
 }
 
-
-
-
-
-
-
-
 .name {
     min-height: 50px;
+    letter-spacing: 2px;
+    text-align: center;
 }
 
 .col-half-offset {

@@ -4,7 +4,7 @@ $(document).ready(function () {
         $('html, body').animate({
             scrollTop: $($.attr(this, 'href')).offset().top - 100
         }, 800);
-        $('.tablet_img').click(function (){
+        $('.tablet_img').click(function () {
             $(this).addClass('.tablet_img_temp')
         });
     });
@@ -24,5 +24,13 @@ $(document).ready(function () {
     sr.reveal('.fourth_icon', {
         reset: true,
         delay: 450,
+    });
+});
+$(document).ready(function () {
+    $('.tablet_img').on('mouseover', function () {
+        $(this).animate({
+            left: "50px",
+            opacity: 0.5,
+        });
     });
 });

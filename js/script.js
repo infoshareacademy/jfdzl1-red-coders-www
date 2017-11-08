@@ -16,45 +16,26 @@ $(".navbar-toggle").click(function(){
     $(".header__top").toggleClass("header__top--dark_background");
 });
 
-//
+// Team members animation after scroll....
 $(function(){
-    $(".hkshortinfo").slideUp(0);
-    $("#hk").mouseover(function(){
-            $(".hkshortinfo").slideDown(1000);
-        });
+    $(".hkshortinfo, .soshortinfo, .mdshortinfo, .mzshortinfo, .jfshortinfo ").slideUp(0);
 });
 
-$(function(){
-    $(".soshortinfo").slideUp(0);
-    $("#so").mouseover(function(){
-        $(".soshortinfo").slideDown(1000);
-    });
-});
-
-$(function(){
-    $(".mdshortinfo").slideUp(0);
-    $("#md").mouseover(function(){
-        $(".mdshortinfo").slideDown(1000);
-    });
-});
-
-$(function(){
-    $(".hkshortinfo").slideUp(0);
-    $("#hk").mouseover(function(){
-        $(".hkshortinfo").slideDown(1000);
-    });
-});
-
-$(function(){
-    $(".mzshortinfo").slideUp(0);
-    $("#mz").mouseover(function(){
-        $(".mzshortinfo").slideDown(1000);
-    });
-});
-
-$(function(){
-    $(".jfshortinfo").slideUp(0);
-    $("#jf").mouseover(function(){
-        $(".jfshortinfo").slideDown(700);
-    });
+$(window).scroll(function(){
+    var position = $("#team-info").offset();
+    var scroll =  $(window).scrollTop();
+    if (scroll >= position.top -210) {
+        setTimeout(animate, 1000);
+        function animate() {
+            $("#hk").addClass("rotate").next().find("div").slideDown(2000, function () {
+                $("#so").addClass("rotate").next().find("div").slideDown(2000, function () {
+                    $("#md").addClass("rotate").next().find("div").slideDown(2000, function () {
+                        $("#mz").addClass("rotate").next().find("div").slideDown(2000, function () {
+                            $("#jf").addClass("rotate").next().find("div").slideDown(2000)
+                        })
+                    })
+                })
+            })
+        }
+    }
 });

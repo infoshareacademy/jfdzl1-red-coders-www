@@ -61,6 +61,10 @@
         max-width: 100%;
     }
 
+    .row-carousel-team-info {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -112,6 +116,10 @@
 
     .col-half-offset {
         margin-left: 0px !important;
+    }
+
+    .row-carousel-team-info {
+        display: none;
     }
 }
 
@@ -202,6 +210,14 @@
         text-align: center;
         padding-bottom: 15px;
     }
+
+    .row-team-info {
+        display: none;
+    }
+
+    .row-carousel-team-info {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -274,6 +290,14 @@
         float: left !important;
     }
 
+    .row-team-info {
+        display: none;
+    }
+
+    .row-carousel-team-info {
+        display: block;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -302,6 +326,7 @@
     .nav > li > a.nav__link--contact:hover:hover, .nav > li > a.nav__link--contact:hover:focus {
         border-color: #222;
         color: #222;
+    }
       
     .nav > li > a.nav__link--contact:hover:hover, .nav > li > a.nav__link--contact:hover:focus{
         border-color: #fff;
@@ -324,6 +349,14 @@
 
     .main-slogan {
         padding-top: 120px;
+    }
+
+    .row-team-info {
+        display: none;
+    }
+
+    .row-carousel-team-info {
+        display: block;
     }
 
 }
@@ -376,6 +409,14 @@
         padding-right: 15px;
     }
 
+    .row-team-info {
+        display: none;
+    }
+
+    .row-carousel-team-info {
+        display: block;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -391,6 +432,14 @@
     .main-slogan__text3 {
         font-size: 34px;
         line-height: 36px;
+    }
+
+    .row-team-info {
+        display: none;
+    }
+
+    .row-carousel-team-info {
+        display: block;
     }
 
 }
@@ -410,4 +459,19 @@
         font-size: 40px;
         line-height: 40px;
     }
+
+    .row-team-info {
+    display: none;
+    }
+
+    .row-carousel-team-info {
+        display: block;
+    }
 }
+
+@media screen and (min-width: 1366px) {
+    .row-carousel-team-info {
+        display: none;
+    }
+}
+

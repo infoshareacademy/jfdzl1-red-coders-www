@@ -65,3 +65,28 @@
 .col-half-offset {
     margin-left: 3.5%
 }
+
+.shortinfo {
+    text-align: center;
+}
+
+.well {
+    background-image: none;
+    background-color: white;
+    border: 1px solid #F79462;
+}
+
+.carousel-control.left {
+    background-image: none;
+}
+
+.carousel-control.right {
+    background-image: none;
+}
+
+.carousel-control {
+    width:5%;
+    color: #F79462;
+    font-size: 15px;
+}
+

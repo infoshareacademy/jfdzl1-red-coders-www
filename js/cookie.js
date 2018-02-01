@@ -31,9 +31,9 @@ C = {
 
     createDiv: function () {
         var banner = $(
-            '<div class="cookie-div alert alert-dismissible text-'+
+            '<div class="col-xs-12 col-sm-4 cookie-div alert alert-dismissible text-'+
             this.alertAlign +' fade in" ' +
-            'role="alert" style="position: fixed; bottom: 0; width: 30%; ' +
+            'role="alert" style="position: fixed; bottom: 0; ' +
             'margin-bottom: 0"><strong>' + this.bannerTitle + '</strong> ' +
             this.bannerMessage + ' <a href="' + this.bannerLinkURL + '">' +
             this.bannerLinkText + '</a> <button type="button" class="btn ' +
